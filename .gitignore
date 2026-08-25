@@ -1,2 +1,5 @@
 /target
+
+/rustemon-cache
+
 *.DS_Store
