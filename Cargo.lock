@@ -3,5 +3,12 @@
 version = 4
 
 [[package]]
-name = "poke-rust"
+name = "poke-core"
 version = "0.1.0"
+
+[[package]]
+name = "poke-tui"
+version = "0.1.0"
+dependencies = [
+ "poke-core",
+]
