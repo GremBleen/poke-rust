@@ -1,0 +1,100 @@
+{
+  "id": 670,
+  "name": "floette",
+  "order": 671,
+  "generation": "generation-vi",
+  "has_gender_differences": false,
+  "gender_rate": 8,
+  "is_legendary": false,
+  "is_mythical": false,
+  "is_baby": false,
+  "varieties": [
+    {
+      "pokemon_id": 670,
+      "name": "floette",
+      "order": 802,
+      "is_default": true,
+      "forms": [
+        {
+          "form_id": 670,
+          "name": "floette-red",
+          "form_name": "red",
+          "order": 954,
+          "is_default": true,
+          "is_battle_only": false,
+          "is_mega": false
+        },
+        {
+          "form_id": 10107,
+          "name": "floette-yellow",
+          "form_name": "yellow",
+          "order": 955,
+          "is_default": false,
+          "is_battle_only": false,
+          "is_mega": false
+        },
+        {
+          "form_id": 10108,
+          "name": "floette-orange",
+          "form_name": "orange",
+          "order": 956,
+          "is_default": false,
+          "is_battle_only": false,
+          "is_mega": false
+        },
+        {
+          "form_id": 10109,
+          "name": "floette-blue",
+          "form_name": "blue",
+          "order": 957,
+          "is_default": false,
+          "is_battle_only": false,
+          "is_mega": false
+        },
+        {
+          "form_id": 10110,
+          "name": "floette-white",
+          "form_name": "white",
+          "order": 958,
+          "is_default": false,
+          "is_battle_only": false,
+          "is_mega": false
+        }
+      ]
+    },
+    {
+      "pokemon_id": 10061,
+      "name": "floette-eternal",
+      "order": 803,
+      "is_default": false,
+      "forms": [
+        {
+          "form_id": 10163,
+          "name": "floette-eternal",
+          "form_name": "eternal",
+          "order": 959,
+          "is_default": true,
+          "is_battle_only": false,
+          "is_mega": false
+        }
+      ]
+    },
+    {
+      "pokemon_id": 10296,
+      "name": "floette-mega",
+      "order": 4294967295,
+      "is_default": false,
+      "forms": [
+        {
+          "form_id": 10521,
+          "name": "floette-mega",
+          "form_name": "mega",
+          "order": 960,
+          "is_default": true,
+          "is_battle_only": true,
+          "is_mega": true
+        }
+      ]
+    }
+  ]
+}

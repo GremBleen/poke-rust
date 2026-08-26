@@ -1,4 +1,4 @@
-#[derive(Debug, serde::Serialize)]
+#[derive(Debug, serde::Serialize, Clone)]
 pub struct Species {
     pub id: u32,
     pub name: String,
@@ -9,19 +9,19 @@ pub struct Species {
     pub is_legendary: bool,
     pub is_mythical: bool,
     pub is_baby: bool,
-    pub varieties: Vec<Variety>
+    pub varieties: Vec<Variety>,
 }
 
-#[derive(Debug, serde::Serialize)]
+#[derive(Debug, serde::Serialize, Clone)]
 pub struct Variety {
     pub pokemon_id: u32,
     pub name: String,
     pub order: u32,
     pub is_default: bool,
-    pub forms: Vec<Form>
+    pub forms: Vec<Form>,
 }
 
-#[derive(Debug, serde::Serialize)]
+#[derive(Debug, serde::Serialize, Clone)]
 pub struct Form {
     pub form_id: u32,
     pub name: String,
@@ -29,5 +29,5 @@ pub struct Form {
     pub order: u32,
     pub is_default: bool,
     pub is_battle_only: bool,
-    pub is_mega: bool
+    pub is_mega: bool,
 }

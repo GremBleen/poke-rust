@@ -1,0 +1,81 @@
+{
+  "id": 6,
+  "name": "charizard",
+  "order": 6,
+  "generation": "generation-i",
+  "has_gender_differences": false,
+  "gender_rate": 1,
+  "is_legendary": false,
+  "is_mythical": false,
+  "is_baby": false,
+  "varieties": [
+    {
+      "pokemon_id": 6,
+      "name": "charizard",
+      "order": 7,
+      "is_default": true,
+      "forms": [
+        {
+          "form_id": 6,
+          "name": "charizard",
+          "form_name": "",
+          "order": 7,
+          "is_default": true,
+          "is_battle_only": false,
+          "is_mega": false
+        }
+      ]
+    },
+    {
+      "pokemon_id": 10034,
+      "name": "charizard-mega-x",
+      "order": 8,
+      "is_default": false,
+      "forms": [
+        {
+          "form_id": 10134,
+          "name": "charizard-mega-x",
+          "form_name": "mega-x",
+          "order": 8,
+          "is_default": true,
+          "is_battle_only": true,
+          "is_mega": true
+        }
+      ]
+    },
+    {
+      "pokemon_id": 10035,
+      "name": "charizard-mega-y",
+      "order": 9,
+      "is_default": false,
+      "forms": [
+        {
+          "form_id": 10135,
+          "name": "charizard-mega-y",
+          "form_name": "mega-y",
+          "order": 9,
+          "is_default": true,
+          "is_battle_only": true,
+          "is_mega": true
+        }
+      ]
+    },
+    {
+      "pokemon_id": 10196,
+      "name": "charizard-gmax",
+      "order": 4294967295,
+      "is_default": false,
+      "forms": [
+        {
+          "form_id": 10365,
+          "name": "charizard-gmax",
+          "form_name": "gmax",
+          "order": 1293,
+          "is_default": true,
+          "is_battle_only": true,
+          "is_mega": false
+        }
+      ]
+    }
+  ]
+}
