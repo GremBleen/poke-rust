@@ -1,12 +1,13 @@
-#[derive(Debug, Clone, Copy)]
+use crate::pokedex::PokemonForm;
+
+#[derive(Debug, Clone, serde::Serialize)]
 pub enum Gender {
     Male,
-    Female
+    Female,
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, serde::Serialize)]
 pub struct DexIdentity {
-    pub species_id: u32,
-    pub form_id: Option<u32>,
+    base: PokemonForm,
     pub gender: Option<Gender>
 }

@@ -1,9 +1,0 @@
-[
-  "charizard",
-  "floette-red",
-  "floette-yellow",
-  "floette-orange",
-  "floette-blue",
-  "floette-white",
-  "floette-eternal"
-]

@@ -1,11 +1,8 @@
 mod species;
-pub use species::{Species, Variety, Form};
+pub use species::{PokemonSpecies, PokemonVariety, PokemonForm};
 
 mod identity;
-pub use identity::{Gender, DexIdentity};
+pub use identity::{DexIdentity, Gender};
 
 mod sync;
-pub use sync::fetch_species;
-
-mod order;
-pub use order::produce_order;
+pub use sync::{fetch_species, fetch_form, fetch_catalogue};
