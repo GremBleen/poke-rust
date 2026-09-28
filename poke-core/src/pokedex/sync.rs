@@ -37,7 +37,7 @@ pub async fn fetch_species(id: u32, client: &RustemonClient) -> Result<PokemonSp
         name: raw.name,
         order: raw.order as u32,
         has_gender_differences: raw.has_gender_differences,
-        varieties: varieties,
+        varieties,
     })
 }
 
@@ -82,7 +82,7 @@ pub async fn fetch_catalogue(client: &RustemonClient) -> Result<Vec<PokemonSpeci
                     name: form.name,
                     order: form.order as u32,
                     is_default: form.is_default,
-                    is_battle_only: form.is_battle_only
+                    is_battle_only: form.is_battle_only,
                 });
             }
 
@@ -91,7 +91,7 @@ pub async fn fetch_catalogue(client: &RustemonClient) -> Result<Vec<PokemonSpeci
                 name: pokemon.name,
                 order: pokemon.order as u32,
                 is_default: pokemon.is_default,
-                forms: forms
+                forms,
             });
         }
 
@@ -100,7 +100,7 @@ pub async fn fetch_catalogue(client: &RustemonClient) -> Result<Vec<PokemonSpeci
             name: spec.name,
             order: spec.order as u32,
             has_gender_differences: spec.has_gender_differences,
-            varieties: varieties
+            varieties,
         })
     }
 

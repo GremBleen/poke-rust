@@ -1,5 +1,5 @@
 use crate::error::StorageError;
-use serde::{de::DeserializeOwned, Serialize};
+use serde::{Serialize, de::DeserializeOwned};
 use std::{fs, path::Path};
 
 pub fn save_json<T: Serialize>(path: &Path, value: &T) -> Result<(), StorageError> {

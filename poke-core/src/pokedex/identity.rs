@@ -1,6 +1,5 @@
+use crate::pokedex::PokemonForm;
 use serde::{Deserialize, Serialize};
-
-use crate::pokedex::{species::PokemonForm, identity::CaughtStatus::NotCaught};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum Gender {
@@ -18,7 +17,7 @@ pub enum CaughtStatus {
 // TODO: Define proper ordinance logic for two caught statuses
 impl CaughtStatus {
     pub fn combine(a: &CaughtStatus, b: &CaughtStatus) -> CaughtStatus {
-        NotCaught
+        CaughtStatus::NotCaught
     }
 }
 
@@ -39,7 +38,7 @@ impl DexEntry {
             id,
             base: form,
             gender,
-            status: NotCaught
+            status: CaughtStatus::NotCaught,
         }
     }
 }
@@ -64,7 +63,7 @@ impl DexIdentity {
         DexIdentity {
             base: form,
             gender,
-            status: NotCaught,
+            status: CaughtStatus::NotCaught,
             box_num,
             row,
             col,

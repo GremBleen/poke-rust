@@ -113,15 +113,7 @@
 //     }
 // }
 
-use crate::pokedex::{
-    DexEntry, DexEntryId, DexIdentity,
-    DexKind::{FinalForm, Living, LivingForm, LivingFormLite},
-    PokemonSpecies,
-    catalogue::SlotEntries::Single,
-    registry::DexRegistry,
-    species,
-};
-
+use crate::pokedex::{DexEntry, DexEntryId, DexRegistry, PokemonSpecies};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -155,7 +147,7 @@ pub struct Catalogue {
 impl CatalogueSlot {
     pub fn new(id: DexEntryId) -> Self {
         CatalogueSlot {
-            entries: Single(id),
+            entries: SlotEntries::Single(id),
             box_num: 0,
             row: 0,
             col: 0,
@@ -166,13 +158,9 @@ impl CatalogueSlot {
 impl Catalogue {
     pub fn new(kind: DexKind, source: &[PokemonSpecies], registry: &mut DexRegistry) -> Self {
         let slots: Vec<CatalogueSlot> = match kind {
-            FinalForm => {
-                Vec::with_capacity(0)
-            }
-            Living => {
-                Vec::with_capacity(0)
-            }
-            LivingFormLite => source
+            DexKind::FinalForm => Vec::with_capacity(0),
+            DexKind::Living => Vec::with_capacity(0),
+            DexKind::LivingFormLite => source
                 .iter()
                 .flat_map(|species| {
                     species.varieties.iter().flat_map(|variety| {
@@ -196,9 +184,7 @@ impl Catalogue {
                     }
                 })
                 .collect(),
-            LivingForm => {
-                Vec::with_capacity(0)
-            }
+            DexKind::LivingForm => Vec::with_capacity(0),
         };
 
         Catalogue { kind, slots }

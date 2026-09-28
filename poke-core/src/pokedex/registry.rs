@@ -1,4 +1,4 @@
-use crate::pokedex::{DexEntry, DexEntryId, Gender, PokemonSpecies, identity::CaughtStatus};
+use crate::pokedex::{CaughtStatus, DexEntry, DexEntryId, Gender, PokemonSpecies};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -7,13 +7,15 @@ pub struct DexRegistry {
 }
 
 // TODO: Might not need this
-impl DexRegistry {
-    pub fn default() -> Self {
+impl Default for DexRegistry {
+    fn default() -> Self {
         DexRegistry {
             entries: Vec::new(),
         }
     }
+}
 
+impl DexRegistry {
     pub fn build(source: &[PokemonSpecies]) -> Self {
         let entries = {
             let mut counter: u32 = 0;
