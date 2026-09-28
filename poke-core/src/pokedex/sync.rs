@@ -1,5 +1,4 @@
 use crate::error::SyncError;
-// use crate::pokedex::Gender::Male;
 use crate::pokedex::{PokemonForm, PokemonSpecies, PokemonVariety};
 use rustemon::Follow;
 use rustemon::client::RustemonClient;

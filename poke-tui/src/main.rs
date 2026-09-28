@@ -1,4 +1,4 @@
-use poke_core::{pokedex::{Catalogue, DexKind, PokemonSpecies, fetch_catalogue}, storage::repo::load_json};
+use poke_core::{pokedex::{Catalogue, DexKind, DexRegistry, PokemonSpecies, fetch_catalogue}, storage::repo::load_json};
 use rustemon::client::{CACacheManager, CacheMode, RustemonClientBuilder};
 use poke_core::storage::repo::{save_json};
 use std::{path::Path};
@@ -57,18 +57,18 @@ async fn main() -> anyhow::Result<()> {
     };
 
     // Construct Catalogues:
-    let living_dex: Catalogue = Catalogue::new(DexKind::Living, &catalogue);
+    // let living_dex: Catalogue = Catalogue::new(DexKind::Living, &catalogue);
 
-    let path_string = format!("./species/living_dex.jsonl");
-    let path: &Path = Path::new(&path_string);
+    // let path_string = format!("./species/living_dex.jsonl");
+    // let path: &Path = Path::new(&path_string);
 
-    match save_json(path, &living_dex) {
-        Ok(_) => {},
-        Err(_) => {},
-    };
+    // match save_json(path, &living_dex) {
+    //     Ok(_) => {},
+    //     Err(_) => {},
+    // };
 
-
-    let living_form_lite_dex: Catalogue = Catalogue::new(DexKind::LivingFormLite, &catalogue);
+    let mut dex_registry = DexRegistry::default();
+    let living_form_lite_dex: Catalogue = Catalogue::new(DexKind::LivingFormLite, &catalogue, &mut dex_registry);
 
     let path_string = format!("./species/living_form_lite_dex.jsonl");
     let path: &Path = Path::new(&path_string);
@@ -78,15 +78,23 @@ async fn main() -> anyhow::Result<()> {
         Err(_) => {},
     };
 
-    let living_form_dex: Catalogue = Catalogue::new(DexKind::LivingForm, &catalogue);
-
-    let path_string = format!("./species/living_form_dex.jsonl");
+    let path_string = format!("./species/dex_registry.jsonl");
     let path: &Path = Path::new(&path_string);
 
-    match save_json(path, &living_form_dex) {
+    match save_json(path, &dex_registry) {
         Ok(_) => {},
         Err(_) => {},
     };
+
+    // let living_form_dex: Catalogue = Catalogue::new(DexKind::LivingForm, &catalogue);
+
+    // let path_string = format!("./species/living_form_dex.jsonl");
+    // let path: &Path = Path::new(&path_string);
+
+    // match save_json(path, &living_form_dex) {
+    //     Ok(_) => {},
+    //     Err(_) => {},
+    // };
 
     Ok(())
 }

@@ -1,6 +1,6 @@
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Debug, serde::Serialize, Deserialize, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PokemonSpecies {
     pub species_id: u32,
     pub name: String,
@@ -9,7 +9,7 @@ pub struct PokemonSpecies {
     pub varieties: Vec<PokemonVariety>,
 }
 
-#[derive(Debug, serde::Serialize, Deserialize, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PokemonVariety {
     pub pokemon_id: u32,
     pub name: String,
@@ -18,7 +18,7 @@ pub struct PokemonVariety {
     pub forms: Vec<PokemonForm>,
 }
 
-#[derive(Debug, serde::Serialize, Deserialize, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PokemonForm {
     pub form_id: u32,
     pub name: String,
