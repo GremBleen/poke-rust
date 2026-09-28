@@ -66,22 +66,22 @@ async fn main() -> anyhow::Result<()> {
     };
 
 
+    let living_form_lite_dex: Catalogue = Catalogue::new(DexKind::LivingFormLite, &catalogue);
+
+    let path_string = format!("./species/living_form_lite_dex.jsonl");
+    let path: &Path = Path::new(&path_string);
+
+    match save_json(path, &living_form_lite_dex) {
+        Ok(_) => {},
+        Err(_) => {},
+    };
+
     let living_form_dex: Catalogue = Catalogue::new(DexKind::LivingForm, &catalogue);
 
     let path_string = format!("./species/living_form_dex.jsonl");
     let path: &Path = Path::new(&path_string);
 
     match save_json(path, &living_form_dex) {
-        Ok(_) => {},
-        Err(_) => {},
-    };
-
-    let living_form_gender_dex: Catalogue = Catalogue::new(DexKind::LivingFormGender, &catalogue);
-
-    let path_string = format!("./species/living_form_gender_dex.jsonl");
-    let path: &Path = Path::new(&path_string);
-
-    match save_json(path, &living_form_gender_dex) {
         Ok(_) => {},
         Err(_) => {},
     };

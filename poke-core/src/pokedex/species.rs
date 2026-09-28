@@ -14,6 +14,7 @@ pub struct PokemonVariety {
     pub pokemon_id: u32,
     pub name: String,
     pub order: u32,
+    pub is_default: bool,
     pub forms: Vec<PokemonForm>,
 }
 
@@ -22,5 +23,6 @@ pub struct PokemonForm {
     pub form_id: u32,
     pub name: String,
     pub order: u32,
+    pub is_default: bool,
     pub is_battle_only: bool,
 }

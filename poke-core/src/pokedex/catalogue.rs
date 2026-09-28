@@ -6,13 +6,13 @@ pub struct Catalogue {
 }
 
 pub enum DexKind {
-    FinalForm,
-    Living,
-    LivingForm,
-    LivingFormGender,
+    FinalForm,      // The final evolutions of every evolutionary line
+    Living,         // Every unique pokemon species
+    LivingFormLite, // Includes Living dex but adds all alternate forms of each pokemon
+    LivingForm,     // Includes the LivingFormLite dex, but adds gender differences
 }
 
-// TODO: Fix box, col and row number calculations | Finish FinalForm building
+// TODO: Finish FinalForm building
 impl Catalogue {
     pub fn new(kind: DexKind, source: &Vec<PokemonSpecies>) -> Self {
         let pokemon_array: Vec<DexIdentity> = match kind {
@@ -29,79 +29,98 @@ impl Catalogue {
                             .map(|(i, form)| {
                                 let mut f = form.clone();
                                 f.order = i as u32;
-                                DexIdentity::new(f, None, 0, 0)
+                                DexIdentity::new(f, None)
                             })
                     })
                 })
                 .collect(),
 
-            DexKind::Living => source
-                .iter()
-                .flat_map(|species| {
-                    species.varieties.iter().take(1).flat_map(|variety| {
-                        variety
-                            .forms
+            DexKind::Living => {
+                let mut counter: u32 = 0;
+
+                source
+                    .iter()
+                    .flat_map(|species| {
+                        species
+                            .varieties
                             .iter()
-                            .take(1)
-                            .filter(|form| !form.is_battle_only)
+                            .filter(|variety| variety.is_default)
+                            .flat_map(|variety| {
+                                variety
+                                    .forms
+                                    .iter()
+                                    .filter(|form| !form.is_battle_only && form.is_default)
+                            })
                     })
-                })
-                .enumerate()
-                .map(|(i, form)| {
-                    let mut f = form.clone();
-                    f.order = i as u32;
-                    DexIdentity::new(f, None, 0, 0)
-                })
-                .collect(),
-
-            DexKind::LivingForm => source
-                .iter()
-                .flat_map(|species| {
-                    species.varieties.iter().flat_map(|variety| {
-                        variety.forms.iter().filter(|form| !form.is_battle_only)
-                    })
-                })
-                .enumerate()
-                .map(|(i, form)| {
-                    let mut f = form.clone();
-                    f.order = i as u32;
-                    DexIdentity::new(f, None, 0, 0)
-                })
-                .collect(),
-
-            DexKind::LivingFormGender => source
-                .iter()
-                .flat_map(|species| {
-                    species.varieties.iter().flat_map(|variety| {
-                        variety
-                            .forms
-                            .iter()
-                            .filter(|form| !form.is_battle_only)
-                            .map(|form| (species.has_gender_differences, form))
-                    })
-                })
-                .enumerate()
-                .flat_map(|(mut i, (has_gender_differences, form))| {
-                    if has_gender_differences {
-                        let mut f1 = form.clone();
-                        let mut f2 = form.clone();
-
-                        f1.order = i as u32;
-                        i = i + 1;
-                        f2.order = i as u32;
-
-                        vec![
-                            DexIdentity::new(f1, Some(Gender::Male), 0, 0),
-                            DexIdentity::new(f2, Some(Gender::Female), 0, 0),
-                        ]
-                    } else {
+                    .map(|form| {
                         let mut f = form.clone();
+                        f.order = counter;
+                        counter += 1;
 
-                        f.order = i as u32;
-                        vec![DexIdentity::new(f, None, 0, 0)]
-                    }
-                })
-                .collect(),
+                        DexIdentity::new(f, None)
+                    })
+                    .collect()
+            }
+
+            DexKind::LivingFormLite => {
+                let mut counter: u32 = 0;
+
+                source
+                    .iter()
+                    .flat_map(|species| {
+                        species.varieties.iter().flat_map(|variety| {
+                            variety.forms.iter().filter(|form| !form.is_battle_only)
+                        })
+                    })
+                    .map(|form| {
+                        let mut f = form.clone();
+                        f.order = counter;
+                        counter += 1;
+
+                        DexIdentity::new(f, None)
+                    })
+                    .collect()
+            }
+
+            DexKind::LivingForm => {
+                let mut counter: u32 = 0;
+
+                source
+                    .iter()
+                    .flat_map(|species| {
+                        species.varieties.iter().flat_map(|variety| {
+                            variety
+                                .forms
+                                .iter()
+                                .filter(|form| !form.is_battle_only)
+                                .map(|form| (species.has_gender_differences, form))
+                        })
+                    })
+                    .flat_map(|(has_gender_differences, form)| {
+                        // If the pokemon has gender differences and is the default form
+                        if has_gender_differences && form.is_default {
+                            let mut f1 = form.clone();
+                            let mut f2 = form.clone();
+
+                            f1.order = counter;
+                            counter += 1;
+                            f2.order = counter;
+                            counter += 1;
+
+                            vec![
+                                DexIdentity::new(f1, Some(Gender::Male)),
+                                DexIdentity::new(f2, Some(Gender::Female)),
+                            ]
+                        } else {
+                            let mut f = form.clone();
+                            f.order = counter;
+                            counter += 1;
+
+                            vec![DexIdentity::new(f, None)]
+                        }
+                    })
+                    .collect()
+            }
         };
 
         Catalogue { pokemon_array }
