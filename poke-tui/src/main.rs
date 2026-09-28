@@ -1,4 +1,4 @@
-use poke_core::pokedex::{Catalogue, fetch_catalogue, Living, LivingForm};
+use poke_core::{pokedex::{Catalogue, DexKind, PokemonSpecies, fetch_catalogue}, storage::repo::load_json};
 use rustemon::client::{CACacheManager, CacheMode, RustemonClientBuilder};
 use poke_core::storage::repo::{save_json};
 use std::{path::Path};
@@ -39,11 +39,23 @@ async fn main() -> anyhow::Result<()> {
     //     Err(_) => {},
     // };
 
-    let catalogue = fetch_catalogue(&client).await?;
+    let path_string = format!("./species/catalogue.jsonl");
+    let path: &Path = Path::new(&path_string);
+
+    let catalogue: Vec<PokemonSpecies> = match load_json(path) {
+        Ok(source) => {
+            println!("Waw");
+            source},
+        Err(_) => {fetch_catalogue(&client).await?}
+    };
+
+    match save_json(path, &catalogue) {
+        Ok(_) => {},
+        Err(_) => {},
+    };
 
     // Construct Catalogues:
-    let mut living_dex: Catalogue = Catalogue { pokemon_array: Vec::new() };
-    living_dex.populate_as(&Living, &mut catalogue.clone());
+    let living_dex: Catalogue = Catalogue::new(DexKind::Living, &catalogue);
 
     let path_string = format!("./species/living_dex.jsonl");
     let path: &Path = Path::new(&path_string);
@@ -53,14 +65,23 @@ async fn main() -> anyhow::Result<()> {
         Err(_) => {},
     };
 
-    // Construct Catalogues:
-    let mut living_form_dex: Catalogue = Catalogue { pokemon_array: Vec::new() };
-    living_form_dex.populate_as(&LivingForm, &mut catalogue.clone());
+
+    let living_form_dex: Catalogue = Catalogue::new(DexKind::LivingForm, &catalogue);
 
     let path_string = format!("./species/living_form_dex.jsonl");
     let path: &Path = Path::new(&path_string);
 
     match save_json(path, &living_form_dex) {
+        Ok(_) => {},
+        Err(_) => {},
+    };
+
+    let living_form_gender_dex: Catalogue = Catalogue::new(DexKind::LivingFormGender, &catalogue);
+
+    let path_string = format!("./species/living_form_gender_dex.jsonl");
+    let path: &Path = Path::new(&path_string);
+
+    match save_json(path, &living_form_gender_dex) {
         Ok(_) => {},
         Err(_) => {},
     };

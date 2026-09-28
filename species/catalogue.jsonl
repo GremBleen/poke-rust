@@ -3,6 +3,7 @@
     "species_id": 1,
     "name": "bulbasaur",
     "order": 1,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1,
@@ -23,6 +24,7 @@
     "species_id": 2,
     "name": "ivysaur",
     "order": 2,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 2,
@@ -43,6 +45,7 @@
     "species_id": 3,
     "name": "venusaur",
     "order": 3,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 3,
@@ -89,6 +92,7 @@
     "species_id": 4,
     "name": "charmander",
     "order": 4,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 4,
@@ -109,6 +113,7 @@
     "species_id": 5,
     "name": "charmeleon",
     "order": 5,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 5,
@@ -129,6 +134,7 @@
     "species_id": 6,
     "name": "charizard",
     "order": 6,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 6,
@@ -188,6 +194,7 @@
     "species_id": 7,
     "name": "squirtle",
     "order": 7,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 7,
@@ -208,6 +215,7 @@
     "species_id": 8,
     "name": "wartortle",
     "order": 8,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 8,
@@ -228,6 +236,7 @@
     "species_id": 9,
     "name": "blastoise",
     "order": 9,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 9,
@@ -274,6 +283,7 @@
     "species_id": 10,
     "name": "caterpie",
     "order": 10,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 10,
@@ -294,6 +304,7 @@
     "species_id": 11,
     "name": "metapod",
     "order": 11,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 11,
@@ -314,6 +325,7 @@
     "species_id": 12,
     "name": "butterfree",
     "order": 12,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 12,
@@ -347,6 +359,7 @@
     "species_id": 13,
     "name": "weedle",
     "order": 13,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 13,
@@ -367,6 +380,7 @@
     "species_id": 14,
     "name": "kakuna",
     "order": 14,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 14,
@@ -387,6 +401,7 @@
     "species_id": 15,
     "name": "beedrill",
     "order": 15,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 15,
@@ -420,6 +435,7 @@
     "species_id": 16,
     "name": "pidgey",
     "order": 16,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 16,
@@ -440,6 +456,7 @@
     "species_id": 17,
     "name": "pidgeotto",
     "order": 17,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 17,
@@ -460,6 +477,7 @@
     "species_id": 18,
     "name": "pidgeot",
     "order": 18,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 18,
@@ -493,6 +511,7 @@
     "species_id": 19,
     "name": "rattata",
     "order": 19,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 19,
@@ -526,6 +545,7 @@
     "species_id": 20,
     "name": "raticate",
     "order": 20,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 20,
@@ -572,6 +592,7 @@
     "species_id": 21,
     "name": "spearow",
     "order": 21,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 21,
@@ -592,6 +613,7 @@
     "species_id": 22,
     "name": "fearow",
     "order": 22,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 22,
@@ -612,6 +634,7 @@
     "species_id": 23,
     "name": "ekans",
     "order": 23,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 23,
@@ -632,6 +655,7 @@
     "species_id": 24,
     "name": "arbok",
     "order": 24,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 24,
@@ -652,6 +676,7 @@
     "species_id": 25,
     "name": "pikachu",
     "order": 26,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 25,
@@ -880,6 +905,7 @@
     "species_id": 26,
     "name": "raichu",
     "order": 27,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 26,
@@ -939,6 +965,7 @@
     "species_id": 27,
     "name": "sandshrew",
     "order": 28,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 27,
@@ -972,6 +999,7 @@
     "species_id": 28,
     "name": "sandslash",
     "order": 29,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 28,
@@ -1005,6 +1033,7 @@
     "species_id": 29,
     "name": "nidoran-f",
     "order": 30,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 29,
@@ -1025,6 +1054,7 @@
     "species_id": 30,
     "name": "nidorina",
     "order": 31,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 30,
@@ -1045,6 +1075,7 @@
     "species_id": 31,
     "name": "nidoqueen",
     "order": 32,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 31,
@@ -1065,6 +1096,7 @@
     "species_id": 32,
     "name": "nidoran-m",
     "order": 33,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 32,
@@ -1085,6 +1117,7 @@
     "species_id": 33,
     "name": "nidorino",
     "order": 34,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 33,
@@ -1105,6 +1138,7 @@
     "species_id": 34,
     "name": "nidoking",
     "order": 35,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 34,
@@ -1125,6 +1159,7 @@
     "species_id": 35,
     "name": "clefairy",
     "order": 37,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 35,
@@ -1145,6 +1180,7 @@
     "species_id": 36,
     "name": "clefable",
     "order": 38,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 36,
@@ -1178,6 +1214,7 @@
     "species_id": 37,
     "name": "vulpix",
     "order": 39,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 37,
@@ -1211,6 +1248,7 @@
     "species_id": 38,
     "name": "ninetales",
     "order": 40,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 38,
@@ -1244,6 +1282,7 @@
     "species_id": 39,
     "name": "jigglypuff",
     "order": 42,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 39,
@@ -1264,6 +1303,7 @@
     "species_id": 40,
     "name": "wigglytuff",
     "order": 43,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 40,
@@ -1284,6 +1324,7 @@
     "species_id": 41,
     "name": "zubat",
     "order": 44,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 41,
@@ -1304,6 +1345,7 @@
     "species_id": 42,
     "name": "golbat",
     "order": 45,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 42,
@@ -1324,6 +1366,7 @@
     "species_id": 43,
     "name": "oddish",
     "order": 47,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 43,
@@ -1344,6 +1387,7 @@
     "species_id": 44,
     "name": "gloom",
     "order": 48,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 44,
@@ -1364,6 +1408,7 @@
     "species_id": 45,
     "name": "vileplume",
     "order": 49,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 45,
@@ -1384,6 +1429,7 @@
     "species_id": 46,
     "name": "paras",
     "order": 51,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 46,
@@ -1404,6 +1450,7 @@
     "species_id": 47,
     "name": "parasect",
     "order": 52,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 47,
@@ -1424,6 +1471,7 @@
     "species_id": 48,
     "name": "venonat",
     "order": 53,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 48,
@@ -1444,6 +1492,7 @@
     "species_id": 49,
     "name": "venomoth",
     "order": 54,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 49,
@@ -1464,6 +1513,7 @@
     "species_id": 50,
     "name": "diglett",
     "order": 55,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 50,
@@ -1497,6 +1547,7 @@
     "species_id": 51,
     "name": "dugtrio",
     "order": 56,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 51,
@@ -1530,6 +1581,7 @@
     "species_id": 52,
     "name": "meowth",
     "order": 57,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 52,
@@ -1589,6 +1641,7 @@
     "species_id": 53,
     "name": "persian",
     "order": 58,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 53,
@@ -1622,6 +1675,7 @@
     "species_id": 54,
     "name": "psyduck",
     "order": 59,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 54,
@@ -1642,6 +1696,7 @@
     "species_id": 55,
     "name": "golduck",
     "order": 60,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 55,
@@ -1662,6 +1717,7 @@
     "species_id": 56,
     "name": "mankey",
     "order": 61,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 56,
@@ -1682,6 +1738,7 @@
     "species_id": 57,
     "name": "primeape",
     "order": 62,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 57,
@@ -1702,6 +1759,7 @@
     "species_id": 58,
     "name": "growlithe",
     "order": 63,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 58,
@@ -1735,6 +1793,7 @@
     "species_id": 59,
     "name": "arcanine",
     "order": 64,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 59,
@@ -1768,6 +1827,7 @@
     "species_id": 60,
     "name": "poliwag",
     "order": 65,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 60,
@@ -1788,6 +1848,7 @@
     "species_id": 61,
     "name": "poliwhirl",
     "order": 66,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 61,
@@ -1808,6 +1869,7 @@
     "species_id": 62,
     "name": "poliwrath",
     "order": 67,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 62,
@@ -1828,6 +1890,7 @@
     "species_id": 63,
     "name": "abra",
     "order": 69,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 63,
@@ -1848,6 +1911,7 @@
     "species_id": 64,
     "name": "kadabra",
     "order": 70,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 64,
@@ -1868,6 +1932,7 @@
     "species_id": 65,
     "name": "alakazam",
     "order": 71,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 65,
@@ -1901,6 +1966,7 @@
     "species_id": 66,
     "name": "machop",
     "order": 72,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 66,
@@ -1921,6 +1987,7 @@
     "species_id": 67,
     "name": "machoke",
     "order": 73,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 67,
@@ -1941,6 +2008,7 @@
     "species_id": 68,
     "name": "machamp",
     "order": 74,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 68,
@@ -1974,6 +2042,7 @@
     "species_id": 69,
     "name": "bellsprout",
     "order": 75,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 69,
@@ -1994,6 +2063,7 @@
     "species_id": 70,
     "name": "weepinbell",
     "order": 76,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 70,
@@ -2014,6 +2084,7 @@
     "species_id": 71,
     "name": "victreebel",
     "order": 77,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 71,
@@ -2047,6 +2118,7 @@
     "species_id": 72,
     "name": "tentacool",
     "order": 78,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 72,
@@ -2067,6 +2139,7 @@
     "species_id": 73,
     "name": "tentacruel",
     "order": 79,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 73,
@@ -2087,6 +2160,7 @@
     "species_id": 74,
     "name": "geodude",
     "order": 80,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 74,
@@ -2120,6 +2194,7 @@
     "species_id": 75,
     "name": "graveler",
     "order": 81,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 75,
@@ -2153,6 +2228,7 @@
     "species_id": 76,
     "name": "golem",
     "order": 82,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 76,
@@ -2186,6 +2262,7 @@
     "species_id": 77,
     "name": "ponyta",
     "order": 83,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 77,
@@ -2219,6 +2296,7 @@
     "species_id": 78,
     "name": "rapidash",
     "order": 84,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 78,
@@ -2252,6 +2330,7 @@
     "species_id": 79,
     "name": "slowpoke",
     "order": 85,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 79,
@@ -2285,6 +2364,7 @@
     "species_id": 80,
     "name": "slowbro",
     "order": 86,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 80,
@@ -2331,6 +2411,7 @@
     "species_id": 81,
     "name": "magnemite",
     "order": 88,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 81,
@@ -2351,6 +2432,7 @@
     "species_id": 82,
     "name": "magneton",
     "order": 89,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 82,
@@ -2371,6 +2453,7 @@
     "species_id": 83,
     "name": "farfetchd",
     "order": 91,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 83,
@@ -2404,6 +2487,7 @@
     "species_id": 84,
     "name": "doduo",
     "order": 92,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 84,
@@ -2424,6 +2508,7 @@
     "species_id": 85,
     "name": "dodrio",
     "order": 93,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 85,
@@ -2444,6 +2529,7 @@
     "species_id": 86,
     "name": "seel",
     "order": 94,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 86,
@@ -2464,6 +2550,7 @@
     "species_id": 87,
     "name": "dewgong",
     "order": 95,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 87,
@@ -2484,6 +2571,7 @@
     "species_id": 88,
     "name": "grimer",
     "order": 96,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 88,
@@ -2517,6 +2605,7 @@
     "species_id": 89,
     "name": "muk",
     "order": 97,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 89,
@@ -2550,6 +2639,7 @@
     "species_id": 90,
     "name": "shellder",
     "order": 98,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 90,
@@ -2570,6 +2660,7 @@
     "species_id": 91,
     "name": "cloyster",
     "order": 99,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 91,
@@ -2590,6 +2681,7 @@
     "species_id": 92,
     "name": "gastly",
     "order": 100,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 92,
@@ -2610,6 +2702,7 @@
     "species_id": 93,
     "name": "haunter",
     "order": 101,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 93,
@@ -2630,6 +2723,7 @@
     "species_id": 94,
     "name": "gengar",
     "order": 102,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 94,
@@ -2676,6 +2770,7 @@
     "species_id": 95,
     "name": "onix",
     "order": 103,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 95,
@@ -2696,6 +2791,7 @@
     "species_id": 96,
     "name": "drowzee",
     "order": 105,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 96,
@@ -2716,6 +2812,7 @@
     "species_id": 97,
     "name": "hypno",
     "order": 106,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 97,
@@ -2736,6 +2833,7 @@
     "species_id": 98,
     "name": "krabby",
     "order": 107,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 98,
@@ -2756,6 +2854,7 @@
     "species_id": 99,
     "name": "kingler",
     "order": 108,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 99,
@@ -2789,6 +2888,7 @@
     "species_id": 100,
     "name": "voltorb",
     "order": 109,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 100,
@@ -2822,6 +2922,7 @@
     "species_id": 101,
     "name": "electrode",
     "order": 110,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 101,
@@ -2855,6 +2956,7 @@
     "species_id": 102,
     "name": "exeggcute",
     "order": 111,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 102,
@@ -2875,6 +2977,7 @@
     "species_id": 103,
     "name": "exeggutor",
     "order": 112,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 103,
@@ -2908,6 +3011,7 @@
     "species_id": 104,
     "name": "cubone",
     "order": 113,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 104,
@@ -2928,6 +3032,7 @@
     "species_id": 105,
     "name": "marowak",
     "order": 114,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 105,
@@ -2974,6 +3079,7 @@
     "species_id": 106,
     "name": "hitmonlee",
     "order": 116,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 106,
@@ -2994,6 +3100,7 @@
     "species_id": 107,
     "name": "hitmonchan",
     "order": 117,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 107,
@@ -3014,6 +3121,7 @@
     "species_id": 108,
     "name": "lickitung",
     "order": 119,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 108,
@@ -3034,6 +3142,7 @@
     "species_id": 109,
     "name": "koffing",
     "order": 121,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 109,
@@ -3054,6 +3163,7 @@
     "species_id": 110,
     "name": "weezing",
     "order": 122,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 110,
@@ -3087,6 +3197,7 @@
     "species_id": 111,
     "name": "rhyhorn",
     "order": 123,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 111,
@@ -3107,6 +3218,7 @@
     "species_id": 112,
     "name": "rhydon",
     "order": 124,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 112,
@@ -3127,6 +3239,7 @@
     "species_id": 113,
     "name": "chansey",
     "order": 127,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 113,
@@ -3147,6 +3260,7 @@
     "species_id": 114,
     "name": "tangela",
     "order": 129,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 114,
@@ -3167,6 +3281,7 @@
     "species_id": 115,
     "name": "kangaskhan",
     "order": 131,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 115,
@@ -3200,6 +3315,7 @@
     "species_id": 116,
     "name": "horsea",
     "order": 132,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 116,
@@ -3220,6 +3336,7 @@
     "species_id": 117,
     "name": "seadra",
     "order": 133,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 117,
@@ -3240,6 +3357,7 @@
     "species_id": 118,
     "name": "goldeen",
     "order": 135,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 118,
@@ -3260,6 +3378,7 @@
     "species_id": 119,
     "name": "seaking",
     "order": 136,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 119,
@@ -3280,6 +3399,7 @@
     "species_id": 120,
     "name": "staryu",
     "order": 137,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 120,
@@ -3300,6 +3420,7 @@
     "species_id": 121,
     "name": "starmie",
     "order": 138,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 121,
@@ -3333,6 +3454,7 @@
     "species_id": 122,
     "name": "mr-mime",
     "order": 140,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 122,
@@ -3366,6 +3488,7 @@
     "species_id": 123,
     "name": "scyther",
     "order": 141,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 123,
@@ -3386,6 +3509,7 @@
     "species_id": 124,
     "name": "jynx",
     "order": 144,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 124,
@@ -3406,6 +3530,7 @@
     "species_id": 125,
     "name": "electabuzz",
     "order": 146,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 125,
@@ -3426,6 +3551,7 @@
     "species_id": 126,
     "name": "magmar",
     "order": 149,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 126,
@@ -3446,6 +3572,7 @@
     "species_id": 127,
     "name": "pinsir",
     "order": 151,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 127,
@@ -3479,6 +3606,7 @@
     "species_id": 128,
     "name": "tauros",
     "order": 152,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 128,
@@ -3538,6 +3666,7 @@
     "species_id": 129,
     "name": "magikarp",
     "order": 153,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 129,
@@ -3558,6 +3687,7 @@
     "species_id": 130,
     "name": "gyarados",
     "order": 154,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 130,
@@ -3591,6 +3721,7 @@
     "species_id": 131,
     "name": "lapras",
     "order": 155,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 131,
@@ -3624,6 +3755,7 @@
     "species_id": 132,
     "name": "ditto",
     "order": 156,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 132,
@@ -3644,6 +3776,7 @@
     "species_id": 133,
     "name": "eevee",
     "order": 157,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 133,
@@ -3690,6 +3823,7 @@
     "species_id": 134,
     "name": "vaporeon",
     "order": 158,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 134,
@@ -3710,6 +3844,7 @@
     "species_id": 135,
     "name": "jolteon",
     "order": 159,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 135,
@@ -3730,6 +3865,7 @@
     "species_id": 136,
     "name": "flareon",
     "order": 160,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 136,
@@ -3750,6 +3886,7 @@
     "species_id": 137,
     "name": "porygon",
     "order": 166,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 137,
@@ -3770,6 +3907,7 @@
     "species_id": 138,
     "name": "omanyte",
     "order": 169,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 138,
@@ -3790,6 +3928,7 @@
     "species_id": 139,
     "name": "omastar",
     "order": 170,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 139,
@@ -3810,6 +3949,7 @@
     "species_id": 140,
     "name": "kabuto",
     "order": 171,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 140,
@@ -3830,6 +3970,7 @@
     "species_id": 141,
     "name": "kabutops",
     "order": 172,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 141,
@@ -3850,6 +3991,7 @@
     "species_id": 142,
     "name": "aerodactyl",
     "order": 173,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 142,
@@ -3883,6 +4025,7 @@
     "species_id": 143,
     "name": "snorlax",
     "order": 175,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 143,
@@ -3916,6 +4059,7 @@
     "species_id": 144,
     "name": "articuno",
     "order": 176,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 144,
@@ -3949,6 +4093,7 @@
     "species_id": 145,
     "name": "zapdos",
     "order": 177,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 145,
@@ -3982,6 +4127,7 @@
     "species_id": 146,
     "name": "moltres",
     "order": 178,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 146,
@@ -4015,6 +4161,7 @@
     "species_id": 147,
     "name": "dratini",
     "order": 179,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 147,
@@ -4035,6 +4182,7 @@
     "species_id": 148,
     "name": "dragonair",
     "order": 180,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 148,
@@ -4055,6 +4203,7 @@
     "species_id": 149,
     "name": "dragonite",
     "order": 181,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 149,
@@ -4088,6 +4237,7 @@
     "species_id": 150,
     "name": "mewtwo",
     "order": 182,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 150,
@@ -4134,6 +4284,7 @@
     "species_id": 151,
     "name": "mew",
     "order": 183,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 151,
@@ -4154,6 +4305,7 @@
     "species_id": 152,
     "name": "chikorita",
     "order": 184,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 152,
@@ -4174,6 +4326,7 @@
     "species_id": 153,
     "name": "bayleef",
     "order": 185,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 153,
@@ -4194,6 +4347,7 @@
     "species_id": 154,
     "name": "meganium",
     "order": 186,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 154,
@@ -4227,6 +4381,7 @@
     "species_id": 155,
     "name": "cyndaquil",
     "order": 187,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 155,
@@ -4247,6 +4402,7 @@
     "species_id": 156,
     "name": "quilava",
     "order": 188,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 156,
@@ -4267,6 +4423,7 @@
     "species_id": 157,
     "name": "typhlosion",
     "order": 189,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 157,
@@ -4300,6 +4457,7 @@
     "species_id": 158,
     "name": "totodile",
     "order": 190,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 158,
@@ -4320,6 +4478,7 @@
     "species_id": 159,
     "name": "croconaw",
     "order": 191,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 159,
@@ -4340,6 +4499,7 @@
     "species_id": 160,
     "name": "feraligatr",
     "order": 192,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 160,
@@ -4373,6 +4533,7 @@
     "species_id": 161,
     "name": "sentret",
     "order": 193,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 161,
@@ -4393,6 +4554,7 @@
     "species_id": 162,
     "name": "furret",
     "order": 194,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 162,
@@ -4413,6 +4575,7 @@
     "species_id": 163,
     "name": "hoothoot",
     "order": 195,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 163,
@@ -4433,6 +4596,7 @@
     "species_id": 164,
     "name": "noctowl",
     "order": 196,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 164,
@@ -4453,6 +4617,7 @@
     "species_id": 165,
     "name": "ledyba",
     "order": 197,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 165,
@@ -4473,6 +4638,7 @@
     "species_id": 166,
     "name": "ledian",
     "order": 198,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 166,
@@ -4493,6 +4659,7 @@
     "species_id": 167,
     "name": "spinarak",
     "order": 199,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 167,
@@ -4513,6 +4680,7 @@
     "species_id": 168,
     "name": "ariados",
     "order": 200,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 168,
@@ -4533,6 +4701,7 @@
     "species_id": 169,
     "name": "crobat",
     "order": 46,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 169,
@@ -4553,6 +4722,7 @@
     "species_id": 170,
     "name": "chinchou",
     "order": 201,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 170,
@@ -4573,6 +4743,7 @@
     "species_id": 171,
     "name": "lanturn",
     "order": 202,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 171,
@@ -4593,6 +4764,7 @@
     "species_id": 172,
     "name": "pichu",
     "order": 25,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 172,
@@ -4619,6 +4791,7 @@
     "species_id": 173,
     "name": "cleffa",
     "order": 36,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 173,
@@ -4639,6 +4812,7 @@
     "species_id": 174,
     "name": "igglybuff",
     "order": 41,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 174,
@@ -4659,6 +4833,7 @@
     "species_id": 175,
     "name": "togepi",
     "order": 203,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 175,
@@ -4679,6 +4854,7 @@
     "species_id": 176,
     "name": "togetic",
     "order": 204,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 176,
@@ -4699,6 +4875,7 @@
     "species_id": 177,
     "name": "natu",
     "order": 206,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 177,
@@ -4719,6 +4896,7 @@
     "species_id": 178,
     "name": "xatu",
     "order": 207,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 178,
@@ -4739,6 +4917,7 @@
     "species_id": 179,
     "name": "mareep",
     "order": 208,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 179,
@@ -4759,6 +4938,7 @@
     "species_id": 180,
     "name": "flaaffy",
     "order": 209,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 180,
@@ -4779,6 +4959,7 @@
     "species_id": 181,
     "name": "ampharos",
     "order": 210,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 181,
@@ -4812,6 +4993,7 @@
     "species_id": 182,
     "name": "bellossom",
     "order": 50,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 182,
@@ -4832,6 +5014,7 @@
     "species_id": 183,
     "name": "marill",
     "order": 212,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 183,
@@ -4852,6 +5035,7 @@
     "species_id": 184,
     "name": "azumarill",
     "order": 213,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 184,
@@ -4872,6 +5056,7 @@
     "species_id": 185,
     "name": "sudowoodo",
     "order": 215,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 185,
@@ -4892,6 +5077,7 @@
     "species_id": 186,
     "name": "politoed",
     "order": 68,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 186,
@@ -4912,6 +5098,7 @@
     "species_id": 187,
     "name": "hoppip",
     "order": 216,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 187,
@@ -4932,6 +5119,7 @@
     "species_id": 188,
     "name": "skiploom",
     "order": 217,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 188,
@@ -4952,6 +5140,7 @@
     "species_id": 189,
     "name": "jumpluff",
     "order": 218,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 189,
@@ -4972,6 +5161,7 @@
     "species_id": 190,
     "name": "aipom",
     "order": 219,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 190,
@@ -4992,6 +5182,7 @@
     "species_id": 191,
     "name": "sunkern",
     "order": 221,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 191,
@@ -5012,6 +5203,7 @@
     "species_id": 192,
     "name": "sunflora",
     "order": 222,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 192,
@@ -5032,6 +5224,7 @@
     "species_id": 193,
     "name": "yanma",
     "order": 223,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 193,
@@ -5052,6 +5245,7 @@
     "species_id": 194,
     "name": "wooper",
     "order": 225,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 194,
@@ -5085,6 +5279,7 @@
     "species_id": 195,
     "name": "quagsire",
     "order": 226,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 195,
@@ -5105,6 +5300,7 @@
     "species_id": 196,
     "name": "espeon",
     "order": 161,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 196,
@@ -5125,6 +5321,7 @@
     "species_id": 197,
     "name": "umbreon",
     "order": 162,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 197,
@@ -5145,6 +5342,7 @@
     "species_id": 198,
     "name": "murkrow",
     "order": 227,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 198,
@@ -5165,6 +5363,7 @@
     "species_id": 199,
     "name": "slowking",
     "order": 87,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 199,
@@ -5198,6 +5397,7 @@
     "species_id": 200,
     "name": "misdreavus",
     "order": 229,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 200,
@@ -5218,6 +5418,7 @@
     "species_id": 201,
     "name": "unown",
     "order": 231,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 201,
@@ -5400,6 +5601,7 @@
     "species_id": 202,
     "name": "wobbuffet",
     "order": 233,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 202,
@@ -5420,6 +5622,7 @@
     "species_id": 203,
     "name": "girafarig",
     "order": 234,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 203,
@@ -5440,6 +5643,7 @@
     "species_id": 204,
     "name": "pineco",
     "order": 235,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 204,
@@ -5460,6 +5664,7 @@
     "species_id": 205,
     "name": "forretress",
     "order": 236,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 205,
@@ -5480,6 +5685,7 @@
     "species_id": 206,
     "name": "dunsparce",
     "order": 237,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 206,
@@ -5500,6 +5706,7 @@
     "species_id": 207,
     "name": "gligar",
     "order": 238,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 207,
@@ -5520,6 +5727,7 @@
     "species_id": 208,
     "name": "steelix",
     "order": 104,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 208,
@@ -5553,6 +5761,7 @@
     "species_id": 209,
     "name": "snubbull",
     "order": 240,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 209,
@@ -5573,6 +5782,7 @@
     "species_id": 210,
     "name": "granbull",
     "order": 241,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 210,
@@ -5593,6 +5803,7 @@
     "species_id": 211,
     "name": "qwilfish",
     "order": 242,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 211,
@@ -5626,6 +5837,7 @@
     "species_id": 212,
     "name": "scizor",
     "order": 142,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 212,
@@ -5659,6 +5871,7 @@
     "species_id": 213,
     "name": "shuckle",
     "order": 243,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 213,
@@ -5679,6 +5892,7 @@
     "species_id": 214,
     "name": "heracross",
     "order": 244,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 214,
@@ -5712,6 +5926,7 @@
     "species_id": 215,
     "name": "sneasel",
     "order": 245,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 215,
@@ -5745,6 +5960,7 @@
     "species_id": 216,
     "name": "teddiursa",
     "order": 247,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 216,
@@ -5765,6 +5981,7 @@
     "species_id": 217,
     "name": "ursaring",
     "order": 248,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 217,
@@ -5785,6 +6002,7 @@
     "species_id": 218,
     "name": "slugma",
     "order": 249,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 218,
@@ -5805,6 +6023,7 @@
     "species_id": 219,
     "name": "magcargo",
     "order": 250,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 219,
@@ -5825,6 +6044,7 @@
     "species_id": 220,
     "name": "swinub",
     "order": 251,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 220,
@@ -5845,6 +6065,7 @@
     "species_id": 221,
     "name": "piloswine",
     "order": 252,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 221,
@@ -5865,6 +6086,7 @@
     "species_id": 222,
     "name": "corsola",
     "order": 254,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 222,
@@ -5898,6 +6120,7 @@
     "species_id": 223,
     "name": "remoraid",
     "order": 255,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 223,
@@ -5918,6 +6141,7 @@
     "species_id": 224,
     "name": "octillery",
     "order": 256,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 224,
@@ -5938,6 +6162,7 @@
     "species_id": 225,
     "name": "delibird",
     "order": 257,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 225,
@@ -5958,6 +6183,7 @@
     "species_id": 226,
     "name": "mantine",
     "order": 259,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 226,
@@ -5978,6 +6204,7 @@
     "species_id": 227,
     "name": "skarmory",
     "order": 260,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 227,
@@ -6011,6 +6238,7 @@
     "species_id": 228,
     "name": "houndour",
     "order": 261,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 228,
@@ -6031,6 +6259,7 @@
     "species_id": 229,
     "name": "houndoom",
     "order": 262,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 229,
@@ -6064,6 +6293,7 @@
     "species_id": 230,
     "name": "kingdra",
     "order": 134,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 230,
@@ -6084,6 +6314,7 @@
     "species_id": 231,
     "name": "phanpy",
     "order": 263,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 231,
@@ -6104,6 +6335,7 @@
     "species_id": 232,
     "name": "donphan",
     "order": 264,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 232,
@@ -6124,6 +6356,7 @@
     "species_id": 233,
     "name": "porygon2",
     "order": 167,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 233,
@@ -6144,6 +6377,7 @@
     "species_id": 234,
     "name": "stantler",
     "order": 265,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 234,
@@ -6164,6 +6398,7 @@
     "species_id": 235,
     "name": "smeargle",
     "order": 266,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 235,
@@ -6184,6 +6419,7 @@
     "species_id": 236,
     "name": "tyrogue",
     "order": 115,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 236,
@@ -6204,6 +6440,7 @@
     "species_id": 237,
     "name": "hitmontop",
     "order": 118,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 237,
@@ -6224,6 +6461,7 @@
     "species_id": 238,
     "name": "smoochum",
     "order": 143,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 238,
@@ -6244,6 +6482,7 @@
     "species_id": 239,
     "name": "elekid",
     "order": 145,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 239,
@@ -6264,6 +6503,7 @@
     "species_id": 240,
     "name": "magby",
     "order": 148,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 240,
@@ -6284,6 +6524,7 @@
     "species_id": 241,
     "name": "miltank",
     "order": 267,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 241,
@@ -6304,6 +6545,7 @@
     "species_id": 242,
     "name": "blissey",
     "order": 128,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 242,
@@ -6324,6 +6566,7 @@
     "species_id": 243,
     "name": "raikou",
     "order": 268,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 243,
@@ -6344,6 +6587,7 @@
     "species_id": 244,
     "name": "entei",
     "order": 269,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 244,
@@ -6364,6 +6608,7 @@
     "species_id": 245,
     "name": "suicune",
     "order": 270,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 245,
@@ -6384,6 +6629,7 @@
     "species_id": 246,
     "name": "larvitar",
     "order": 271,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 246,
@@ -6404,6 +6650,7 @@
     "species_id": 247,
     "name": "pupitar",
     "order": 272,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 247,
@@ -6424,6 +6671,7 @@
     "species_id": 248,
     "name": "tyranitar",
     "order": 273,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 248,
@@ -6457,6 +6705,7 @@
     "species_id": 249,
     "name": "lugia",
     "order": 274,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 249,
@@ -6477,6 +6726,7 @@
     "species_id": 250,
     "name": "ho-oh",
     "order": 275,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 250,
@@ -6497,6 +6747,7 @@
     "species_id": 251,
     "name": "celebi",
     "order": 276,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 251,
@@ -6517,6 +6768,7 @@
     "species_id": 252,
     "name": "treecko",
     "order": 277,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 252,
@@ -6537,6 +6789,7 @@
     "species_id": 253,
     "name": "grovyle",
     "order": 278,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 253,
@@ -6557,6 +6810,7 @@
     "species_id": 254,
     "name": "sceptile",
     "order": 279,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 254,
@@ -6590,6 +6844,7 @@
     "species_id": 255,
     "name": "torchic",
     "order": 280,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 255,
@@ -6610,6 +6865,7 @@
     "species_id": 256,
     "name": "combusken",
     "order": 281,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 256,
@@ -6630,6 +6886,7 @@
     "species_id": 257,
     "name": "blaziken",
     "order": 282,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 257,
@@ -6663,6 +6920,7 @@
     "species_id": 258,
     "name": "mudkip",
     "order": 283,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 258,
@@ -6683,6 +6941,7 @@
     "species_id": 259,
     "name": "marshtomp",
     "order": 284,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 259,
@@ -6703,6 +6962,7 @@
     "species_id": 260,
     "name": "swampert",
     "order": 285,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 260,
@@ -6736,6 +6996,7 @@
     "species_id": 261,
     "name": "poochyena",
     "order": 286,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 261,
@@ -6756,6 +7017,7 @@
     "species_id": 262,
     "name": "mightyena",
     "order": 287,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 262,
@@ -6776,6 +7038,7 @@
     "species_id": 263,
     "name": "zigzagoon",
     "order": 288,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 263,
@@ -6809,6 +7072,7 @@
     "species_id": 264,
     "name": "linoone",
     "order": 289,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 264,
@@ -6842,6 +7106,7 @@
     "species_id": 265,
     "name": "wurmple",
     "order": 290,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 265,
@@ -6862,6 +7127,7 @@
     "species_id": 266,
     "name": "silcoon",
     "order": 291,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 266,
@@ -6882,6 +7148,7 @@
     "species_id": 267,
     "name": "beautifly",
     "order": 292,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 267,
@@ -6902,6 +7169,7 @@
     "species_id": 268,
     "name": "cascoon",
     "order": 293,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 268,
@@ -6922,6 +7190,7 @@
     "species_id": 269,
     "name": "dustox",
     "order": 294,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 269,
@@ -6942,6 +7211,7 @@
     "species_id": 270,
     "name": "lotad",
     "order": 295,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 270,
@@ -6962,6 +7232,7 @@
     "species_id": 271,
     "name": "lombre",
     "order": 296,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 271,
@@ -6982,6 +7253,7 @@
     "species_id": 272,
     "name": "ludicolo",
     "order": 297,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 272,
@@ -7002,6 +7274,7 @@
     "species_id": 273,
     "name": "seedot",
     "order": 298,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 273,
@@ -7022,6 +7295,7 @@
     "species_id": 274,
     "name": "nuzleaf",
     "order": 299,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 274,
@@ -7042,6 +7316,7 @@
     "species_id": 275,
     "name": "shiftry",
     "order": 300,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 275,
@@ -7062,6 +7337,7 @@
     "species_id": 276,
     "name": "taillow",
     "order": 301,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 276,
@@ -7082,6 +7358,7 @@
     "species_id": 277,
     "name": "swellow",
     "order": 302,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 277,
@@ -7102,6 +7379,7 @@
     "species_id": 278,
     "name": "wingull",
     "order": 303,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 278,
@@ -7122,6 +7400,7 @@
     "species_id": 279,
     "name": "pelipper",
     "order": 304,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 279,
@@ -7142,6 +7421,7 @@
     "species_id": 280,
     "name": "ralts",
     "order": 305,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 280,
@@ -7162,6 +7442,7 @@
     "species_id": 281,
     "name": "kirlia",
     "order": 306,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 281,
@@ -7182,6 +7463,7 @@
     "species_id": 282,
     "name": "gardevoir",
     "order": 307,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 282,
@@ -7215,6 +7497,7 @@
     "species_id": 283,
     "name": "surskit",
     "order": 309,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 283,
@@ -7235,6 +7518,7 @@
     "species_id": 284,
     "name": "masquerain",
     "order": 310,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 284,
@@ -7255,6 +7539,7 @@
     "species_id": 285,
     "name": "shroomish",
     "order": 311,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 285,
@@ -7275,6 +7560,7 @@
     "species_id": 286,
     "name": "breloom",
     "order": 312,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 286,
@@ -7295,6 +7581,7 @@
     "species_id": 287,
     "name": "slakoth",
     "order": 313,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 287,
@@ -7315,6 +7602,7 @@
     "species_id": 288,
     "name": "vigoroth",
     "order": 314,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 288,
@@ -7335,6 +7623,7 @@
     "species_id": 289,
     "name": "slaking",
     "order": 315,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 289,
@@ -7355,6 +7644,7 @@
     "species_id": 290,
     "name": "nincada",
     "order": 316,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 290,
@@ -7375,6 +7665,7 @@
     "species_id": 291,
     "name": "ninjask",
     "order": 317,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 291,
@@ -7395,6 +7686,7 @@
     "species_id": 292,
     "name": "shedinja",
     "order": 318,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 292,
@@ -7415,6 +7707,7 @@
     "species_id": 293,
     "name": "whismur",
     "order": 319,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 293,
@@ -7435,6 +7728,7 @@
     "species_id": 294,
     "name": "loudred",
     "order": 320,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 294,
@@ -7455,6 +7749,7 @@
     "species_id": 295,
     "name": "exploud",
     "order": 321,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 295,
@@ -7475,6 +7770,7 @@
     "species_id": 296,
     "name": "makuhita",
     "order": 322,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 296,
@@ -7495,6 +7791,7 @@
     "species_id": 297,
     "name": "hariyama",
     "order": 323,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 297,
@@ -7515,6 +7812,7 @@
     "species_id": 298,
     "name": "azurill",
     "order": 211,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 298,
@@ -7535,6 +7833,7 @@
     "species_id": 299,
     "name": "nosepass",
     "order": 324,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 299,
@@ -7555,6 +7854,7 @@
     "species_id": 300,
     "name": "skitty",
     "order": 326,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 300,
@@ -7575,6 +7875,7 @@
     "species_id": 301,
     "name": "delcatty",
     "order": 327,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 301,
@@ -7595,6 +7896,7 @@
     "species_id": 302,
     "name": "sableye",
     "order": 328,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 302,
@@ -7628,6 +7930,7 @@
     "species_id": 303,
     "name": "mawile",
     "order": 329,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 303,
@@ -7661,6 +7964,7 @@
     "species_id": 304,
     "name": "aron",
     "order": 330,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 304,
@@ -7681,6 +7985,7 @@
     "species_id": 305,
     "name": "lairon",
     "order": 331,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 305,
@@ -7701,6 +8006,7 @@
     "species_id": 306,
     "name": "aggron",
     "order": 332,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 306,
@@ -7734,6 +8040,7 @@
     "species_id": 307,
     "name": "meditite",
     "order": 333,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 307,
@@ -7754,6 +8061,7 @@
     "species_id": 308,
     "name": "medicham",
     "order": 334,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 308,
@@ -7787,6 +8095,7 @@
     "species_id": 309,
     "name": "electrike",
     "order": 335,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 309,
@@ -7807,6 +8116,7 @@
     "species_id": 310,
     "name": "manectric",
     "order": 336,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 310,
@@ -7840,6 +8150,7 @@
     "species_id": 311,
     "name": "plusle",
     "order": 337,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 311,
@@ -7860,6 +8171,7 @@
     "species_id": 312,
     "name": "minun",
     "order": 338,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 312,
@@ -7880,6 +8192,7 @@
     "species_id": 313,
     "name": "volbeat",
     "order": 339,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 313,
@@ -7900,6 +8213,7 @@
     "species_id": 314,
     "name": "illumise",
     "order": 340,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 314,
@@ -7920,6 +8234,7 @@
     "species_id": 315,
     "name": "roselia",
     "order": 342,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 315,
@@ -7940,6 +8255,7 @@
     "species_id": 316,
     "name": "gulpin",
     "order": 344,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 316,
@@ -7960,6 +8276,7 @@
     "species_id": 317,
     "name": "swalot",
     "order": 345,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 317,
@@ -7980,6 +8297,7 @@
     "species_id": 318,
     "name": "carvanha",
     "order": 346,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 318,
@@ -8000,6 +8318,7 @@
     "species_id": 319,
     "name": "sharpedo",
     "order": 347,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 319,
@@ -8033,6 +8352,7 @@
     "species_id": 320,
     "name": "wailmer",
     "order": 348,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 320,
@@ -8053,6 +8373,7 @@
     "species_id": 321,
     "name": "wailord",
     "order": 349,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 321,
@@ -8073,6 +8394,7 @@
     "species_id": 322,
     "name": "numel",
     "order": 350,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 322,
@@ -8093,6 +8415,7 @@
     "species_id": 323,
     "name": "camerupt",
     "order": 351,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 323,
@@ -8126,6 +8449,7 @@
     "species_id": 324,
     "name": "torkoal",
     "order": 352,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 324,
@@ -8146,6 +8470,7 @@
     "species_id": 325,
     "name": "spoink",
     "order": 353,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 325,
@@ -8166,6 +8491,7 @@
     "species_id": 326,
     "name": "grumpig",
     "order": 354,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 326,
@@ -8186,6 +8512,7 @@
     "species_id": 327,
     "name": "spinda",
     "order": 355,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 327,
@@ -8206,6 +8533,7 @@
     "species_id": 328,
     "name": "trapinch",
     "order": 356,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 328,
@@ -8226,6 +8554,7 @@
     "species_id": 329,
     "name": "vibrava",
     "order": 357,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 329,
@@ -8246,6 +8575,7 @@
     "species_id": 330,
     "name": "flygon",
     "order": 358,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 330,
@@ -8266,6 +8596,7 @@
     "species_id": 331,
     "name": "cacnea",
     "order": 359,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 331,
@@ -8286,6 +8617,7 @@
     "species_id": 332,
     "name": "cacturne",
     "order": 360,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 332,
@@ -8306,6 +8638,7 @@
     "species_id": 333,
     "name": "swablu",
     "order": 361,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 333,
@@ -8326,6 +8659,7 @@
     "species_id": 334,
     "name": "altaria",
     "order": 362,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 334,
@@ -8359,6 +8693,7 @@
     "species_id": 335,
     "name": "zangoose",
     "order": 363,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 335,
@@ -8379,6 +8714,7 @@
     "species_id": 336,
     "name": "seviper",
     "order": 364,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 336,
@@ -8399,6 +8735,7 @@
     "species_id": 337,
     "name": "lunatone",
     "order": 365,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 337,
@@ -8419,6 +8756,7 @@
     "species_id": 338,
     "name": "solrock",
     "order": 366,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 338,
@@ -8439,6 +8777,7 @@
     "species_id": 339,
     "name": "barboach",
     "order": 367,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 339,
@@ -8459,6 +8798,7 @@
     "species_id": 340,
     "name": "whiscash",
     "order": 368,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 340,
@@ -8479,6 +8819,7 @@
     "species_id": 341,
     "name": "corphish",
     "order": 369,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 341,
@@ -8499,6 +8840,7 @@
     "species_id": 342,
     "name": "crawdaunt",
     "order": 370,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 342,
@@ -8519,6 +8861,7 @@
     "species_id": 343,
     "name": "baltoy",
     "order": 371,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 343,
@@ -8539,6 +8882,7 @@
     "species_id": 344,
     "name": "claydol",
     "order": 372,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 344,
@@ -8559,6 +8903,7 @@
     "species_id": 345,
     "name": "lileep",
     "order": 373,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 345,
@@ -8579,6 +8924,7 @@
     "species_id": 346,
     "name": "cradily",
     "order": 374,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 346,
@@ -8599,6 +8945,7 @@
     "species_id": 347,
     "name": "anorith",
     "order": 375,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 347,
@@ -8619,6 +8966,7 @@
     "species_id": 348,
     "name": "armaldo",
     "order": 376,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 348,
@@ -8639,6 +8987,7 @@
     "species_id": 349,
     "name": "feebas",
     "order": 377,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 349,
@@ -8659,6 +9008,7 @@
     "species_id": 350,
     "name": "milotic",
     "order": 378,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 350,
@@ -8679,6 +9029,7 @@
     "species_id": 351,
     "name": "castform",
     "order": 379,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 351,
@@ -8738,6 +9089,7 @@
     "species_id": 352,
     "name": "kecleon",
     "order": 380,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 352,
@@ -8758,6 +9110,7 @@
     "species_id": 353,
     "name": "shuppet",
     "order": 381,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 353,
@@ -8778,6 +9131,7 @@
     "species_id": 354,
     "name": "banette",
     "order": 382,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 354,
@@ -8811,6 +9165,7 @@
     "species_id": 355,
     "name": "duskull",
     "order": 383,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 355,
@@ -8831,6 +9186,7 @@
     "species_id": 356,
     "name": "dusclops",
     "order": 384,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 356,
@@ -8851,6 +9207,7 @@
     "species_id": 357,
     "name": "tropius",
     "order": 386,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 357,
@@ -8871,6 +9228,7 @@
     "species_id": 358,
     "name": "chimecho",
     "order": 388,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 358,
@@ -8904,6 +9262,7 @@
     "species_id": 359,
     "name": "absol",
     "order": 389,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 359,
@@ -8950,6 +9309,7 @@
     "species_id": 360,
     "name": "wynaut",
     "order": 232,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 360,
@@ -8970,6 +9330,7 @@
     "species_id": 361,
     "name": "snorunt",
     "order": 390,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 361,
@@ -8990,6 +9351,7 @@
     "species_id": 362,
     "name": "glalie",
     "order": 391,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 362,
@@ -9023,6 +9385,7 @@
     "species_id": 363,
     "name": "spheal",
     "order": 393,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 363,
@@ -9043,6 +9406,7 @@
     "species_id": 364,
     "name": "sealeo",
     "order": 394,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 364,
@@ -9063,6 +9427,7 @@
     "species_id": 365,
     "name": "walrein",
     "order": 395,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 365,
@@ -9083,6 +9448,7 @@
     "species_id": 366,
     "name": "clamperl",
     "order": 396,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 366,
@@ -9103,6 +9469,7 @@
     "species_id": 367,
     "name": "huntail",
     "order": 397,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 367,
@@ -9123,6 +9490,7 @@
     "species_id": 368,
     "name": "gorebyss",
     "order": 398,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 368,
@@ -9143,6 +9511,7 @@
     "species_id": 369,
     "name": "relicanth",
     "order": 399,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 369,
@@ -9163,6 +9532,7 @@
     "species_id": 370,
     "name": "luvdisc",
     "order": 400,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 370,
@@ -9183,6 +9553,7 @@
     "species_id": 371,
     "name": "bagon",
     "order": 401,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 371,
@@ -9203,6 +9574,7 @@
     "species_id": 372,
     "name": "shelgon",
     "order": 402,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 372,
@@ -9223,6 +9595,7 @@
     "species_id": 373,
     "name": "salamence",
     "order": 403,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 373,
@@ -9256,6 +9629,7 @@
     "species_id": 374,
     "name": "beldum",
     "order": 404,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 374,
@@ -9276,6 +9650,7 @@
     "species_id": 375,
     "name": "metang",
     "order": 405,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 375,
@@ -9296,6 +9671,7 @@
     "species_id": 376,
     "name": "metagross",
     "order": 406,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 376,
@@ -9329,6 +9705,7 @@
     "species_id": 377,
     "name": "regirock",
     "order": 407,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 377,
@@ -9349,6 +9726,7 @@
     "species_id": 378,
     "name": "regice",
     "order": 408,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 378,
@@ -9369,6 +9747,7 @@
     "species_id": 379,
     "name": "registeel",
     "order": 409,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 379,
@@ -9389,6 +9768,7 @@
     "species_id": 380,
     "name": "latias",
     "order": 410,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 380,
@@ -9422,6 +9802,7 @@
     "species_id": 381,
     "name": "latios",
     "order": 411,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 381,
@@ -9455,6 +9836,7 @@
     "species_id": 382,
     "name": "kyogre",
     "order": 412,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 382,
@@ -9488,6 +9870,7 @@
     "species_id": 383,
     "name": "groudon",
     "order": 413,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 383,
@@ -9521,6 +9904,7 @@
     "species_id": 384,
     "name": "rayquaza",
     "order": 414,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 384,
@@ -9554,6 +9938,7 @@
     "species_id": 385,
     "name": "jirachi",
     "order": 415,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 385,
@@ -9574,6 +9959,7 @@
     "species_id": 386,
     "name": "deoxys",
     "order": 416,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 386,
@@ -9633,6 +10019,7 @@
     "species_id": 387,
     "name": "turtwig",
     "order": 417,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 387,
@@ -9653,6 +10040,7 @@
     "species_id": 388,
     "name": "grotle",
     "order": 418,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 388,
@@ -9673,6 +10061,7 @@
     "species_id": 389,
     "name": "torterra",
     "order": 419,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 389,
@@ -9693,6 +10082,7 @@
     "species_id": 390,
     "name": "chimchar",
     "order": 420,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 390,
@@ -9713,6 +10103,7 @@
     "species_id": 391,
     "name": "monferno",
     "order": 421,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 391,
@@ -9733,6 +10124,7 @@
     "species_id": 392,
     "name": "infernape",
     "order": 422,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 392,
@@ -9753,6 +10145,7 @@
     "species_id": 393,
     "name": "piplup",
     "order": 423,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 393,
@@ -9773,6 +10166,7 @@
     "species_id": 394,
     "name": "prinplup",
     "order": 424,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 394,
@@ -9793,6 +10187,7 @@
     "species_id": 395,
     "name": "empoleon",
     "order": 425,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 395,
@@ -9813,6 +10208,7 @@
     "species_id": 396,
     "name": "starly",
     "order": 426,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 396,
@@ -9833,6 +10229,7 @@
     "species_id": 397,
     "name": "staravia",
     "order": 427,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 397,
@@ -9853,6 +10250,7 @@
     "species_id": 398,
     "name": "staraptor",
     "order": 428,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 398,
@@ -9886,6 +10284,7 @@
     "species_id": 399,
     "name": "bidoof",
     "order": 429,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 399,
@@ -9906,6 +10305,7 @@
     "species_id": 400,
     "name": "bibarel",
     "order": 430,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 400,
@@ -9926,6 +10326,7 @@
     "species_id": 401,
     "name": "kricketot",
     "order": 431,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 401,
@@ -9946,6 +10347,7 @@
     "species_id": 402,
     "name": "kricketune",
     "order": 432,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 402,
@@ -9966,6 +10368,7 @@
     "species_id": 403,
     "name": "shinx",
     "order": 433,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 403,
@@ -9986,6 +10389,7 @@
     "species_id": 404,
     "name": "luxio",
     "order": 434,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 404,
@@ -10006,6 +10410,7 @@
     "species_id": 405,
     "name": "luxray",
     "order": 435,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 405,
@@ -10026,6 +10431,7 @@
     "species_id": 406,
     "name": "budew",
     "order": 341,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 406,
@@ -10046,6 +10452,7 @@
     "species_id": 407,
     "name": "roserade",
     "order": 343,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 407,
@@ -10066,6 +10473,7 @@
     "species_id": 408,
     "name": "cranidos",
     "order": 436,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 408,
@@ -10086,6 +10494,7 @@
     "species_id": 409,
     "name": "rampardos",
     "order": 437,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 409,
@@ -10106,6 +10515,7 @@
     "species_id": 410,
     "name": "shieldon",
     "order": 438,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 410,
@@ -10126,6 +10536,7 @@
     "species_id": 411,
     "name": "bastiodon",
     "order": 439,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 411,
@@ -10146,6 +10557,7 @@
     "species_id": 412,
     "name": "burmy",
     "order": 440,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 412,
@@ -10178,6 +10590,7 @@
     "species_id": 413,
     "name": "wormadam",
     "order": 441,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 413,
@@ -10224,6 +10637,7 @@
     "species_id": 414,
     "name": "mothim",
     "order": 442,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 414,
@@ -10256,6 +10670,7 @@
     "species_id": 415,
     "name": "combee",
     "order": 443,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 415,
@@ -10276,6 +10691,7 @@
     "species_id": 416,
     "name": "vespiquen",
     "order": 444,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 416,
@@ -10296,6 +10712,7 @@
     "species_id": 417,
     "name": "pachirisu",
     "order": 445,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 417,
@@ -10316,6 +10733,7 @@
     "species_id": 418,
     "name": "buizel",
     "order": 446,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 418,
@@ -10336,6 +10754,7 @@
     "species_id": 419,
     "name": "floatzel",
     "order": 447,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 419,
@@ -10356,6 +10775,7 @@
     "species_id": 420,
     "name": "cherubi",
     "order": 448,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 420,
@@ -10376,6 +10796,7 @@
     "species_id": 421,
     "name": "cherrim",
     "order": 449,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 421,
@@ -10402,6 +10823,7 @@
     "species_id": 422,
     "name": "shellos",
     "order": 450,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 422,
@@ -10428,6 +10850,7 @@
     "species_id": 423,
     "name": "gastrodon",
     "order": 451,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 423,
@@ -10454,6 +10877,7 @@
     "species_id": 424,
     "name": "ambipom",
     "order": 220,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 424,
@@ -10474,6 +10898,7 @@
     "species_id": 425,
     "name": "drifloon",
     "order": 452,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 425,
@@ -10494,6 +10919,7 @@
     "species_id": 426,
     "name": "drifblim",
     "order": 453,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 426,
@@ -10514,6 +10940,7 @@
     "species_id": 427,
     "name": "buneary",
     "order": 454,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 427,
@@ -10534,6 +10961,7 @@
     "species_id": 428,
     "name": "lopunny",
     "order": 455,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 428,
@@ -10567,6 +10995,7 @@
     "species_id": 429,
     "name": "mismagius",
     "order": 230,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 429,
@@ -10587,6 +11016,7 @@
     "species_id": 430,
     "name": "honchkrow",
     "order": 228,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 430,
@@ -10607,6 +11037,7 @@
     "species_id": 431,
     "name": "glameow",
     "order": 456,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 431,
@@ -10627,6 +11058,7 @@
     "species_id": 432,
     "name": "purugly",
     "order": 457,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 432,
@@ -10647,6 +11079,7 @@
     "species_id": 433,
     "name": "chingling",
     "order": 387,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 433,
@@ -10667,6 +11100,7 @@
     "species_id": 434,
     "name": "stunky",
     "order": 458,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 434,
@@ -10687,6 +11121,7 @@
     "species_id": 435,
     "name": "skuntank",
     "order": 459,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 435,
@@ -10707,6 +11142,7 @@
     "species_id": 436,
     "name": "bronzor",
     "order": 460,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 436,
@@ -10727,6 +11163,7 @@
     "species_id": 437,
     "name": "bronzong",
     "order": 461,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 437,
@@ -10747,6 +11184,7 @@
     "species_id": 438,
     "name": "bonsly",
     "order": 214,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 438,
@@ -10767,6 +11205,7 @@
     "species_id": 439,
     "name": "mime-jr",
     "order": 139,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 439,
@@ -10787,6 +11226,7 @@
     "species_id": 440,
     "name": "happiny",
     "order": 126,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 440,
@@ -10807,6 +11247,7 @@
     "species_id": 441,
     "name": "chatot",
     "order": 462,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 441,
@@ -10827,6 +11268,7 @@
     "species_id": 442,
     "name": "spiritomb",
     "order": 463,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 442,
@@ -10847,6 +11289,7 @@
     "species_id": 443,
     "name": "gible",
     "order": 464,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 443,
@@ -10867,6 +11310,7 @@
     "species_id": 444,
     "name": "gabite",
     "order": 465,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 444,
@@ -10887,6 +11331,7 @@
     "species_id": 445,
     "name": "garchomp",
     "order": 466,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 445,
@@ -10933,6 +11378,7 @@
     "species_id": 446,
     "name": "munchlax",
     "order": 174,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 446,
@@ -10953,6 +11399,7 @@
     "species_id": 447,
     "name": "riolu",
     "order": 467,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 447,
@@ -10973,6 +11420,7 @@
     "species_id": 448,
     "name": "lucario",
     "order": 468,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 448,
@@ -11019,6 +11467,7 @@
     "species_id": 449,
     "name": "hippopotas",
     "order": 469,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 449,
@@ -11039,6 +11488,7 @@
     "species_id": 450,
     "name": "hippowdon",
     "order": 470,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 450,
@@ -11059,6 +11509,7 @@
     "species_id": 451,
     "name": "skorupi",
     "order": 471,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 451,
@@ -11079,6 +11530,7 @@
     "species_id": 452,
     "name": "drapion",
     "order": 472,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 452,
@@ -11099,6 +11551,7 @@
     "species_id": 453,
     "name": "croagunk",
     "order": 473,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 453,
@@ -11119,6 +11572,7 @@
     "species_id": 454,
     "name": "toxicroak",
     "order": 474,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 454,
@@ -11139,6 +11593,7 @@
     "species_id": 455,
     "name": "carnivine",
     "order": 475,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 455,
@@ -11159,6 +11614,7 @@
     "species_id": 456,
     "name": "finneon",
     "order": 476,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 456,
@@ -11179,6 +11635,7 @@
     "species_id": 457,
     "name": "lumineon",
     "order": 477,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 457,
@@ -11199,6 +11656,7 @@
     "species_id": 458,
     "name": "mantyke",
     "order": 258,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 458,
@@ -11219,6 +11677,7 @@
     "species_id": 459,
     "name": "snover",
     "order": 478,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 459,
@@ -11239,6 +11698,7 @@
     "species_id": 460,
     "name": "abomasnow",
     "order": 479,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 460,
@@ -11272,6 +11732,7 @@
     "species_id": 461,
     "name": "weavile",
     "order": 246,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 461,
@@ -11292,6 +11753,7 @@
     "species_id": 462,
     "name": "magnezone",
     "order": 90,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 462,
@@ -11312,6 +11774,7 @@
     "species_id": 463,
     "name": "lickilicky",
     "order": 120,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 463,
@@ -11332,6 +11795,7 @@
     "species_id": 464,
     "name": "rhyperior",
     "order": 125,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 464,
@@ -11352,6 +11816,7 @@
     "species_id": 465,
     "name": "tangrowth",
     "order": 130,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 465,
@@ -11372,6 +11837,7 @@
     "species_id": 466,
     "name": "electivire",
     "order": 147,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 466,
@@ -11392,6 +11858,7 @@
     "species_id": 467,
     "name": "magmortar",
     "order": 150,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 467,
@@ -11412,6 +11879,7 @@
     "species_id": 468,
     "name": "togekiss",
     "order": 205,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 468,
@@ -11432,6 +11900,7 @@
     "species_id": 469,
     "name": "yanmega",
     "order": 224,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 469,
@@ -11452,6 +11921,7 @@
     "species_id": 470,
     "name": "leafeon",
     "order": 163,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 470,
@@ -11472,6 +11942,7 @@
     "species_id": 471,
     "name": "glaceon",
     "order": 164,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 471,
@@ -11492,6 +11963,7 @@
     "species_id": 472,
     "name": "gliscor",
     "order": 239,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 472,
@@ -11512,6 +11984,7 @@
     "species_id": 473,
     "name": "mamoswine",
     "order": 253,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 473,
@@ -11532,6 +12005,7 @@
     "species_id": 474,
     "name": "porygon-z",
     "order": 168,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 474,
@@ -11552,6 +12026,7 @@
     "species_id": 475,
     "name": "gallade",
     "order": 308,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 475,
@@ -11585,6 +12060,7 @@
     "species_id": 476,
     "name": "probopass",
     "order": 325,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 476,
@@ -11605,6 +12081,7 @@
     "species_id": 477,
     "name": "dusknoir",
     "order": 385,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 477,
@@ -11625,6 +12102,7 @@
     "species_id": 478,
     "name": "froslass",
     "order": 392,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 478,
@@ -11658,6 +12136,7 @@
     "species_id": 479,
     "name": "rotom",
     "order": 480,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 479,
@@ -11743,6 +12222,7 @@
     "species_id": 480,
     "name": "uxie",
     "order": 481,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 480,
@@ -11763,6 +12243,7 @@
     "species_id": 481,
     "name": "mesprit",
     "order": 482,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 481,
@@ -11783,6 +12264,7 @@
     "species_id": 482,
     "name": "azelf",
     "order": 483,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 482,
@@ -11803,6 +12285,7 @@
     "species_id": 483,
     "name": "dialga",
     "order": 484,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 483,
@@ -11836,6 +12319,7 @@
     "species_id": 484,
     "name": "palkia",
     "order": 485,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 484,
@@ -11869,6 +12353,7 @@
     "species_id": 485,
     "name": "heatran",
     "order": 486,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 485,
@@ -11902,6 +12387,7 @@
     "species_id": 486,
     "name": "regigigas",
     "order": 487,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 486,
@@ -11922,6 +12408,7 @@
     "species_id": 487,
     "name": "giratina",
     "order": 488,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 487,
@@ -11955,6 +12442,7 @@
     "species_id": 488,
     "name": "cresselia",
     "order": 489,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 488,
@@ -11975,6 +12463,7 @@
     "species_id": 489,
     "name": "phione",
     "order": 490,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 489,
@@ -11995,6 +12484,7 @@
     "species_id": 490,
     "name": "manaphy",
     "order": 491,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 490,
@@ -12015,6 +12505,7 @@
     "species_id": 491,
     "name": "darkrai",
     "order": 492,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 491,
@@ -12048,6 +12539,7 @@
     "species_id": 492,
     "name": "shaymin",
     "order": 493,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 492,
@@ -12081,6 +12573,7 @@
     "species_id": 493,
     "name": "arceus",
     "order": 494,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 493,
@@ -12209,6 +12702,7 @@
     "species_id": 494,
     "name": "victini",
     "order": 495,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 494,
@@ -12229,6 +12723,7 @@
     "species_id": 495,
     "name": "snivy",
     "order": 496,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 495,
@@ -12249,6 +12744,7 @@
     "species_id": 496,
     "name": "servine",
     "order": 497,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 496,
@@ -12269,6 +12765,7 @@
     "species_id": 497,
     "name": "serperior",
     "order": 498,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 497,
@@ -12289,6 +12786,7 @@
     "species_id": 498,
     "name": "tepig",
     "order": 499,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 498,
@@ -12309,6 +12807,7 @@
     "species_id": 499,
     "name": "pignite",
     "order": 500,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 499,
@@ -12329,6 +12828,7 @@
     "species_id": 500,
     "name": "emboar",
     "order": 501,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 500,
@@ -12362,6 +12862,7 @@
     "species_id": 501,
     "name": "oshawott",
     "order": 502,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 501,
@@ -12382,6 +12883,7 @@
     "species_id": 502,
     "name": "dewott",
     "order": 503,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 502,
@@ -12402,6 +12904,7 @@
     "species_id": 503,
     "name": "samurott",
     "order": 504,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 503,
@@ -12435,6 +12938,7 @@
     "species_id": 504,
     "name": "patrat",
     "order": 505,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 504,
@@ -12455,6 +12959,7 @@
     "species_id": 505,
     "name": "watchog",
     "order": 506,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 505,
@@ -12475,6 +12980,7 @@
     "species_id": 506,
     "name": "lillipup",
     "order": 507,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 506,
@@ -12495,6 +13001,7 @@
     "species_id": 507,
     "name": "herdier",
     "order": 508,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 507,
@@ -12515,6 +13022,7 @@
     "species_id": 508,
     "name": "stoutland",
     "order": 509,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 508,
@@ -12535,6 +13043,7 @@
     "species_id": 509,
     "name": "purrloin",
     "order": 510,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 509,
@@ -12555,6 +13064,7 @@
     "species_id": 510,
     "name": "liepard",
     "order": 511,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 510,
@@ -12575,6 +13085,7 @@
     "species_id": 511,
     "name": "pansage",
     "order": 512,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 511,
@@ -12595,6 +13106,7 @@
     "species_id": 512,
     "name": "simisage",
     "order": 513,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 512,
@@ -12615,6 +13127,7 @@
     "species_id": 513,
     "name": "pansear",
     "order": 514,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 513,
@@ -12635,6 +13148,7 @@
     "species_id": 514,
     "name": "simisear",
     "order": 515,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 514,
@@ -12655,6 +13169,7 @@
     "species_id": 515,
     "name": "panpour",
     "order": 516,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 515,
@@ -12675,6 +13190,7 @@
     "species_id": 516,
     "name": "simipour",
     "order": 517,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 516,
@@ -12695,6 +13211,7 @@
     "species_id": 517,
     "name": "munna",
     "order": 518,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 517,
@@ -12715,6 +13232,7 @@
     "species_id": 518,
     "name": "musharna",
     "order": 519,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 518,
@@ -12735,6 +13253,7 @@
     "species_id": 519,
     "name": "pidove",
     "order": 520,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 519,
@@ -12755,6 +13274,7 @@
     "species_id": 520,
     "name": "tranquill",
     "order": 521,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 520,
@@ -12775,6 +13295,7 @@
     "species_id": 521,
     "name": "unfezant",
     "order": 522,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 521,
@@ -12795,6 +13316,7 @@
     "species_id": 522,
     "name": "blitzle",
     "order": 523,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 522,
@@ -12815,6 +13337,7 @@
     "species_id": 523,
     "name": "zebstrika",
     "order": 524,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 523,
@@ -12835,6 +13358,7 @@
     "species_id": 524,
     "name": "roggenrola",
     "order": 525,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 524,
@@ -12855,6 +13379,7 @@
     "species_id": 525,
     "name": "boldore",
     "order": 526,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 525,
@@ -12875,6 +13400,7 @@
     "species_id": 526,
     "name": "gigalith",
     "order": 527,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 526,
@@ -12895,6 +13421,7 @@
     "species_id": 527,
     "name": "woobat",
     "order": 528,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 527,
@@ -12915,6 +13442,7 @@
     "species_id": 528,
     "name": "swoobat",
     "order": 529,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 528,
@@ -12935,6 +13463,7 @@
     "species_id": 529,
     "name": "drilbur",
     "order": 530,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 529,
@@ -12955,6 +13484,7 @@
     "species_id": 530,
     "name": "excadrill",
     "order": 531,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 530,
@@ -12988,6 +13518,7 @@
     "species_id": 531,
     "name": "audino",
     "order": 532,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 531,
@@ -13021,6 +13552,7 @@
     "species_id": 532,
     "name": "timburr",
     "order": 533,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 532,
@@ -13041,6 +13573,7 @@
     "species_id": 533,
     "name": "gurdurr",
     "order": 534,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 533,
@@ -13061,6 +13594,7 @@
     "species_id": 534,
     "name": "conkeldurr",
     "order": 535,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 534,
@@ -13081,6 +13615,7 @@
     "species_id": 535,
     "name": "tympole",
     "order": 536,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 535,
@@ -13101,6 +13636,7 @@
     "species_id": 536,
     "name": "palpitoad",
     "order": 537,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 536,
@@ -13121,6 +13657,7 @@
     "species_id": 537,
     "name": "seismitoad",
     "order": 538,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 537,
@@ -13141,6 +13678,7 @@
     "species_id": 538,
     "name": "throh",
     "order": 539,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 538,
@@ -13161,6 +13699,7 @@
     "species_id": 539,
     "name": "sawk",
     "order": 540,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 539,
@@ -13181,6 +13720,7 @@
     "species_id": 540,
     "name": "sewaddle",
     "order": 541,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 540,
@@ -13201,6 +13741,7 @@
     "species_id": 541,
     "name": "swadloon",
     "order": 542,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 541,
@@ -13221,6 +13762,7 @@
     "species_id": 542,
     "name": "leavanny",
     "order": 543,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 542,
@@ -13241,6 +13783,7 @@
     "species_id": 543,
     "name": "venipede",
     "order": 544,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 543,
@@ -13261,6 +13804,7 @@
     "species_id": 544,
     "name": "whirlipede",
     "order": 545,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 544,
@@ -13281,6 +13825,7 @@
     "species_id": 545,
     "name": "scolipede",
     "order": 546,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 545,
@@ -13314,6 +13859,7 @@
     "species_id": 546,
     "name": "cottonee",
     "order": 547,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 546,
@@ -13334,6 +13880,7 @@
     "species_id": 547,
     "name": "whimsicott",
     "order": 548,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 547,
@@ -13354,6 +13901,7 @@
     "species_id": 548,
     "name": "petilil",
     "order": 549,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 548,
@@ -13374,6 +13922,7 @@
     "species_id": 549,
     "name": "lilligant",
     "order": 550,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 549,
@@ -13407,6 +13956,7 @@
     "species_id": 550,
     "name": "basculin",
     "order": 551,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 550,
@@ -13453,6 +14003,7 @@
     "species_id": 551,
     "name": "sandile",
     "order": 552,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 551,
@@ -13473,6 +14024,7 @@
     "species_id": 552,
     "name": "krokorok",
     "order": 553,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 552,
@@ -13493,6 +14045,7 @@
     "species_id": 553,
     "name": "krookodile",
     "order": 554,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 553,
@@ -13513,6 +14066,7 @@
     "species_id": 554,
     "name": "darumaka",
     "order": 555,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 554,
@@ -13546,6 +14100,7 @@
     "species_id": 555,
     "name": "darmanitan",
     "order": 556,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 555,
@@ -13605,6 +14160,7 @@
     "species_id": 556,
     "name": "maractus",
     "order": 557,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 556,
@@ -13625,6 +14181,7 @@
     "species_id": 557,
     "name": "dwebble",
     "order": 558,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 557,
@@ -13645,6 +14202,7 @@
     "species_id": 558,
     "name": "crustle",
     "order": 559,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 558,
@@ -13665,6 +14223,7 @@
     "species_id": 559,
     "name": "scraggy",
     "order": 560,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 559,
@@ -13685,6 +14244,7 @@
     "species_id": 560,
     "name": "scrafty",
     "order": 561,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 560,
@@ -13718,6 +14278,7 @@
     "species_id": 561,
     "name": "sigilyph",
     "order": 562,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 561,
@@ -13738,6 +14299,7 @@
     "species_id": 562,
     "name": "yamask",
     "order": 563,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 562,
@@ -13771,6 +14333,7 @@
     "species_id": 563,
     "name": "cofagrigus",
     "order": 564,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 563,
@@ -13791,6 +14354,7 @@
     "species_id": 564,
     "name": "tirtouga",
     "order": 565,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 564,
@@ -13811,6 +14375,7 @@
     "species_id": 565,
     "name": "carracosta",
     "order": 566,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 565,
@@ -13831,6 +14396,7 @@
     "species_id": 566,
     "name": "archen",
     "order": 567,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 566,
@@ -13851,6 +14417,7 @@
     "species_id": 567,
     "name": "archeops",
     "order": 568,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 567,
@@ -13871,6 +14438,7 @@
     "species_id": 568,
     "name": "trubbish",
     "order": 569,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 568,
@@ -13891,6 +14459,7 @@
     "species_id": 569,
     "name": "garbodor",
     "order": 570,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 569,
@@ -13924,6 +14493,7 @@
     "species_id": 570,
     "name": "zorua",
     "order": 571,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 570,
@@ -13957,6 +14527,7 @@
     "species_id": 571,
     "name": "zoroark",
     "order": 572,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 571,
@@ -13990,6 +14561,7 @@
     "species_id": 572,
     "name": "minccino",
     "order": 573,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 572,
@@ -14010,6 +14582,7 @@
     "species_id": 573,
     "name": "cinccino",
     "order": 574,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 573,
@@ -14030,6 +14603,7 @@
     "species_id": 574,
     "name": "gothita",
     "order": 575,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 574,
@@ -14050,6 +14624,7 @@
     "species_id": 575,
     "name": "gothorita",
     "order": 576,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 575,
@@ -14070,6 +14645,7 @@
     "species_id": 576,
     "name": "gothitelle",
     "order": 577,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 576,
@@ -14090,6 +14666,7 @@
     "species_id": 577,
     "name": "solosis",
     "order": 578,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 577,
@@ -14110,6 +14687,7 @@
     "species_id": 578,
     "name": "duosion",
     "order": 579,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 578,
@@ -14130,6 +14708,7 @@
     "species_id": 579,
     "name": "reuniclus",
     "order": 580,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 579,
@@ -14150,6 +14729,7 @@
     "species_id": 580,
     "name": "ducklett",
     "order": 581,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 580,
@@ -14170,6 +14750,7 @@
     "species_id": 581,
     "name": "swanna",
     "order": 582,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 581,
@@ -14190,6 +14771,7 @@
     "species_id": 582,
     "name": "vanillite",
     "order": 583,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 582,
@@ -14210,6 +14792,7 @@
     "species_id": 583,
     "name": "vanillish",
     "order": 584,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 583,
@@ -14230,6 +14813,7 @@
     "species_id": 584,
     "name": "vanilluxe",
     "order": 585,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 584,
@@ -14250,6 +14834,7 @@
     "species_id": 585,
     "name": "deerling",
     "order": 586,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 585,
@@ -14288,6 +14873,7 @@
     "species_id": 586,
     "name": "sawsbuck",
     "order": 587,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 586,
@@ -14326,6 +14912,7 @@
     "species_id": 587,
     "name": "emolga",
     "order": 588,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 587,
@@ -14346,6 +14933,7 @@
     "species_id": 588,
     "name": "karrablast",
     "order": 589,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 588,
@@ -14366,6 +14954,7 @@
     "species_id": 589,
     "name": "escavalier",
     "order": 590,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 589,
@@ -14386,6 +14975,7 @@
     "species_id": 590,
     "name": "foongus",
     "order": 591,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 590,
@@ -14406,6 +14996,7 @@
     "species_id": 591,
     "name": "amoonguss",
     "order": 592,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 591,
@@ -14426,6 +15017,7 @@
     "species_id": 592,
     "name": "frillish",
     "order": 593,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 592,
@@ -14452,6 +15044,7 @@
     "species_id": 593,
     "name": "jellicent",
     "order": 594,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 593,
@@ -14478,6 +15071,7 @@
     "species_id": 594,
     "name": "alomomola",
     "order": 595,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 594,
@@ -14498,6 +15092,7 @@
     "species_id": 595,
     "name": "joltik",
     "order": 596,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 595,
@@ -14518,6 +15113,7 @@
     "species_id": 596,
     "name": "galvantula",
     "order": 597,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 596,
@@ -14538,6 +15134,7 @@
     "species_id": 597,
     "name": "ferroseed",
     "order": 598,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 597,
@@ -14558,6 +15155,7 @@
     "species_id": 598,
     "name": "ferrothorn",
     "order": 599,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 598,
@@ -14578,6 +15176,7 @@
     "species_id": 599,
     "name": "klink",
     "order": 600,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 599,
@@ -14598,6 +15197,7 @@
     "species_id": 600,
     "name": "klang",
     "order": 601,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 600,
@@ -14618,6 +15218,7 @@
     "species_id": 601,
     "name": "klinklang",
     "order": 602,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 601,
@@ -14638,6 +15239,7 @@
     "species_id": 602,
     "name": "tynamo",
     "order": 603,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 602,
@@ -14658,6 +15260,7 @@
     "species_id": 603,
     "name": "eelektrik",
     "order": 604,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 603,
@@ -14678,6 +15281,7 @@
     "species_id": 604,
     "name": "eelektross",
     "order": 605,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 604,
@@ -14711,6 +15315,7 @@
     "species_id": 605,
     "name": "elgyem",
     "order": 606,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 605,
@@ -14731,6 +15336,7 @@
     "species_id": 606,
     "name": "beheeyem",
     "order": 607,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 606,
@@ -14751,6 +15357,7 @@
     "species_id": 607,
     "name": "litwick",
     "order": 608,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 607,
@@ -14771,6 +15378,7 @@
     "species_id": 608,
     "name": "lampent",
     "order": 609,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 608,
@@ -14791,6 +15399,7 @@
     "species_id": 609,
     "name": "chandelure",
     "order": 610,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 609,
@@ -14824,6 +15433,7 @@
     "species_id": 610,
     "name": "axew",
     "order": 611,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 610,
@@ -14844,6 +15454,7 @@
     "species_id": 611,
     "name": "fraxure",
     "order": 612,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 611,
@@ -14864,6 +15475,7 @@
     "species_id": 612,
     "name": "haxorus",
     "order": 613,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 612,
@@ -14884,6 +15496,7 @@
     "species_id": 613,
     "name": "cubchoo",
     "order": 614,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 613,
@@ -14904,6 +15517,7 @@
     "species_id": 614,
     "name": "beartic",
     "order": 615,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 614,
@@ -14924,6 +15538,7 @@
     "species_id": 615,
     "name": "cryogonal",
     "order": 616,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 615,
@@ -14944,6 +15559,7 @@
     "species_id": 616,
     "name": "shelmet",
     "order": 617,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 616,
@@ -14964,6 +15580,7 @@
     "species_id": 617,
     "name": "accelgor",
     "order": 618,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 617,
@@ -14984,6 +15601,7 @@
     "species_id": 618,
     "name": "stunfisk",
     "order": 619,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 618,
@@ -15017,6 +15635,7 @@
     "species_id": 619,
     "name": "mienfoo",
     "order": 620,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 619,
@@ -15037,6 +15656,7 @@
     "species_id": 620,
     "name": "mienshao",
     "order": 621,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 620,
@@ -15057,6 +15677,7 @@
     "species_id": 621,
     "name": "druddigon",
     "order": 622,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 621,
@@ -15077,6 +15698,7 @@
     "species_id": 622,
     "name": "golett",
     "order": 623,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 622,
@@ -15097,6 +15719,7 @@
     "species_id": 623,
     "name": "golurk",
     "order": 624,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 623,
@@ -15130,6 +15753,7 @@
     "species_id": 624,
     "name": "pawniard",
     "order": 625,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 624,
@@ -15150,6 +15774,7 @@
     "species_id": 625,
     "name": "bisharp",
     "order": 626,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 625,
@@ -15170,6 +15795,7 @@
     "species_id": 626,
     "name": "bouffalant",
     "order": 627,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 626,
@@ -15190,6 +15816,7 @@
     "species_id": 627,
     "name": "rufflet",
     "order": 628,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 627,
@@ -15210,6 +15837,7 @@
     "species_id": 628,
     "name": "braviary",
     "order": 629,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 628,
@@ -15243,6 +15871,7 @@
     "species_id": 629,
     "name": "vullaby",
     "order": 630,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 629,
@@ -15263,6 +15892,7 @@
     "species_id": 630,
     "name": "mandibuzz",
     "order": 631,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 630,
@@ -15283,6 +15913,7 @@
     "species_id": 631,
     "name": "heatmor",
     "order": 632,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 631,
@@ -15303,6 +15934,7 @@
     "species_id": 632,
     "name": "durant",
     "order": 633,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 632,
@@ -15323,6 +15955,7 @@
     "species_id": 633,
     "name": "deino",
     "order": 634,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 633,
@@ -15343,6 +15976,7 @@
     "species_id": 634,
     "name": "zweilous",
     "order": 635,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 634,
@@ -15363,6 +15997,7 @@
     "species_id": 635,
     "name": "hydreigon",
     "order": 636,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 635,
@@ -15383,6 +16018,7 @@
     "species_id": 636,
     "name": "larvesta",
     "order": 637,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 636,
@@ -15403,6 +16039,7 @@
     "species_id": 637,
     "name": "volcarona",
     "order": 638,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 637,
@@ -15423,6 +16060,7 @@
     "species_id": 638,
     "name": "cobalion",
     "order": 639,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 638,
@@ -15443,6 +16081,7 @@
     "species_id": 639,
     "name": "terrakion",
     "order": 640,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 639,
@@ -15463,6 +16102,7 @@
     "species_id": 640,
     "name": "virizion",
     "order": 641,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 640,
@@ -15483,6 +16123,7 @@
     "species_id": 641,
     "name": "tornadus",
     "order": 642,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 641,
@@ -15516,6 +16157,7 @@
     "species_id": 642,
     "name": "thundurus",
     "order": 643,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 642,
@@ -15549,6 +16191,7 @@
     "species_id": 643,
     "name": "reshiram",
     "order": 644,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 643,
@@ -15569,6 +16212,7 @@
     "species_id": 644,
     "name": "zekrom",
     "order": 645,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 644,
@@ -15589,6 +16233,7 @@
     "species_id": 645,
     "name": "landorus",
     "order": 646,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 645,
@@ -15622,6 +16267,7 @@
     "species_id": 646,
     "name": "kyurem",
     "order": 647,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 646,
@@ -15668,6 +16314,7 @@
     "species_id": 647,
     "name": "keldeo",
     "order": 648,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 647,
@@ -15701,6 +16348,7 @@
     "species_id": 648,
     "name": "meloetta",
     "order": 649,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 648,
@@ -15734,6 +16382,7 @@
     "species_id": 649,
     "name": "genesect",
     "order": 650,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 649,
@@ -15778,6 +16427,7 @@
     "species_id": 650,
     "name": "chespin",
     "order": 651,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 650,
@@ -15798,6 +16448,7 @@
     "species_id": 651,
     "name": "quilladin",
     "order": 652,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 651,
@@ -15818,6 +16469,7 @@
     "species_id": 652,
     "name": "chesnaught",
     "order": 653,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 652,
@@ -15851,6 +16503,7 @@
     "species_id": 653,
     "name": "fennekin",
     "order": 654,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 653,
@@ -15871,6 +16524,7 @@
     "species_id": 654,
     "name": "braixen",
     "order": 655,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 654,
@@ -15891,6 +16545,7 @@
     "species_id": 655,
     "name": "delphox",
     "order": 656,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 655,
@@ -15924,6 +16579,7 @@
     "species_id": 656,
     "name": "froakie",
     "order": 657,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 656,
@@ -15944,6 +16600,7 @@
     "species_id": 657,
     "name": "frogadier",
     "order": 658,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 657,
@@ -15964,6 +16621,7 @@
     "species_id": 658,
     "name": "greninja",
     "order": 659,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 658,
@@ -16023,6 +16681,7 @@
     "species_id": 659,
     "name": "bunnelby",
     "order": 660,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 659,
@@ -16043,6 +16702,7 @@
     "species_id": 660,
     "name": "diggersby",
     "order": 661,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 660,
@@ -16063,6 +16723,7 @@
     "species_id": 661,
     "name": "fletchling",
     "order": 662,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 661,
@@ -16083,6 +16744,7 @@
     "species_id": 662,
     "name": "fletchinder",
     "order": 663,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 662,
@@ -16103,6 +16765,7 @@
     "species_id": 663,
     "name": "talonflame",
     "order": 664,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 663,
@@ -16123,6 +16786,7 @@
     "species_id": 664,
     "name": "scatterbug",
     "order": 665,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 664,
@@ -16257,6 +16921,7 @@
     "species_id": 665,
     "name": "spewpa",
     "order": 666,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 665,
@@ -16391,6 +17056,7 @@
     "species_id": 666,
     "name": "vivillon",
     "order": 667,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 666,
@@ -16525,6 +17191,7 @@
     "species_id": 667,
     "name": "litleo",
     "order": 668,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 667,
@@ -16545,6 +17212,7 @@
     "species_id": 668,
     "name": "pyroar",
     "order": 669,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 668,
@@ -16584,6 +17252,7 @@
     "species_id": 669,
     "name": "flabebe",
     "order": 670,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 669,
@@ -16628,6 +17297,7 @@
     "species_id": 670,
     "name": "floette",
     "order": 671,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 670,
@@ -16698,6 +17368,7 @@
     "species_id": 671,
     "name": "florges",
     "order": 672,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 671,
@@ -16742,6 +17413,7 @@
     "species_id": 672,
     "name": "skiddo",
     "order": 673,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 672,
@@ -16762,6 +17434,7 @@
     "species_id": 673,
     "name": "gogoat",
     "order": 674,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 673,
@@ -16782,6 +17455,7 @@
     "species_id": 674,
     "name": "pancham",
     "order": 675,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 674,
@@ -16802,6 +17476,7 @@
     "species_id": 675,
     "name": "pangoro",
     "order": 676,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 675,
@@ -16822,6 +17497,7 @@
     "species_id": 676,
     "name": "furfrou",
     "order": 677,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 676,
@@ -16896,6 +17572,7 @@
     "species_id": 677,
     "name": "espurr",
     "order": 678,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 677,
@@ -16916,6 +17593,7 @@
     "species_id": 678,
     "name": "meowstic",
     "order": 679,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 678,
@@ -16975,6 +17653,7 @@
     "species_id": 679,
     "name": "honedge",
     "order": 680,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 679,
@@ -16995,6 +17674,7 @@
     "species_id": 680,
     "name": "doublade",
     "order": 681,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 680,
@@ -17015,6 +17695,7 @@
     "species_id": 681,
     "name": "aegislash",
     "order": 682,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 681,
@@ -17048,6 +17729,7 @@
     "species_id": 682,
     "name": "spritzee",
     "order": 683,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 682,
@@ -17068,6 +17750,7 @@
     "species_id": 683,
     "name": "aromatisse",
     "order": 684,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 683,
@@ -17088,6 +17771,7 @@
     "species_id": 684,
     "name": "swirlix",
     "order": 685,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 684,
@@ -17108,6 +17792,7 @@
     "species_id": 685,
     "name": "slurpuff",
     "order": 686,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 685,
@@ -17128,6 +17813,7 @@
     "species_id": 686,
     "name": "inkay",
     "order": 687,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 686,
@@ -17148,6 +17834,7 @@
     "species_id": 687,
     "name": "malamar",
     "order": 688,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 687,
@@ -17181,6 +17868,7 @@
     "species_id": 688,
     "name": "binacle",
     "order": 689,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 688,
@@ -17201,6 +17889,7 @@
     "species_id": 689,
     "name": "barbaracle",
     "order": 690,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 689,
@@ -17234,6 +17923,7 @@
     "species_id": 690,
     "name": "skrelp",
     "order": 691,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 690,
@@ -17254,6 +17944,7 @@
     "species_id": 691,
     "name": "dragalge",
     "order": 692,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 691,
@@ -17287,6 +17978,7 @@
     "species_id": 692,
     "name": "clauncher",
     "order": 693,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 692,
@@ -17307,6 +17999,7 @@
     "species_id": 693,
     "name": "clawitzer",
     "order": 694,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 693,
@@ -17327,6 +18020,7 @@
     "species_id": 694,
     "name": "helioptile",
     "order": 695,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 694,
@@ -17347,6 +18041,7 @@
     "species_id": 695,
     "name": "heliolisk",
     "order": 696,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 695,
@@ -17367,6 +18062,7 @@
     "species_id": 696,
     "name": "tyrunt",
     "order": 697,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 696,
@@ -17387,6 +18083,7 @@
     "species_id": 697,
     "name": "tyrantrum",
     "order": 698,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 697,
@@ -17407,6 +18104,7 @@
     "species_id": 698,
     "name": "amaura",
     "order": 699,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 698,
@@ -17427,6 +18125,7 @@
     "species_id": 699,
     "name": "aurorus",
     "order": 700,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 699,
@@ -17447,6 +18146,7 @@
     "species_id": 700,
     "name": "sylveon",
     "order": 165,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 700,
@@ -17467,6 +18167,7 @@
     "species_id": 701,
     "name": "hawlucha",
     "order": 701,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 701,
@@ -17500,6 +18201,7 @@
     "species_id": 702,
     "name": "dedenne",
     "order": 702,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 702,
@@ -17520,6 +18222,7 @@
     "species_id": 703,
     "name": "carbink",
     "order": 703,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 703,
@@ -17540,6 +18243,7 @@
     "species_id": 704,
     "name": "goomy",
     "order": 704,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 704,
@@ -17560,6 +18264,7 @@
     "species_id": 705,
     "name": "sliggoo",
     "order": 705,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 705,
@@ -17593,6 +18298,7 @@
     "species_id": 706,
     "name": "goodra",
     "order": 706,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 706,
@@ -17626,6 +18332,7 @@
     "species_id": 707,
     "name": "klefki",
     "order": 707,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 707,
@@ -17646,6 +18353,7 @@
     "species_id": 708,
     "name": "phantump",
     "order": 708,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 708,
@@ -17666,6 +18374,7 @@
     "species_id": 709,
     "name": "trevenant",
     "order": 709,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 709,
@@ -17686,6 +18395,7 @@
     "species_id": 710,
     "name": "pumpkaboo",
     "order": 710,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 710,
@@ -17745,6 +18455,7 @@
     "species_id": 711,
     "name": "gourgeist",
     "order": 711,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 711,
@@ -17804,6 +18515,7 @@
     "species_id": 712,
     "name": "bergmite",
     "order": 712,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 712,
@@ -17824,6 +18536,7 @@
     "species_id": 713,
     "name": "avalugg",
     "order": 713,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 713,
@@ -17857,6 +18570,7 @@
     "species_id": 714,
     "name": "noibat",
     "order": 714,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 714,
@@ -17877,6 +18591,7 @@
     "species_id": 715,
     "name": "noivern",
     "order": 715,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 715,
@@ -17897,6 +18612,7 @@
     "species_id": 716,
     "name": "xerneas",
     "order": 716,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 716,
@@ -17923,6 +18639,7 @@
     "species_id": 717,
     "name": "yveltal",
     "order": 717,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 717,
@@ -17943,6 +18660,7 @@
     "species_id": 718,
     "name": "zygarde",
     "order": 718,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 718,
@@ -18028,6 +18746,7 @@
     "species_id": 719,
     "name": "diancie",
     "order": 719,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 719,
@@ -18061,6 +18780,7 @@
     "species_id": 720,
     "name": "hoopa",
     "order": 720,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 720,
@@ -18094,6 +18814,7 @@
     "species_id": 721,
     "name": "volcanion",
     "order": 721,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 721,
@@ -18114,6 +18835,7 @@
     "species_id": 722,
     "name": "rowlet",
     "order": 722,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 722,
@@ -18134,6 +18856,7 @@
     "species_id": 723,
     "name": "dartrix",
     "order": 723,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 723,
@@ -18154,6 +18877,7 @@
     "species_id": 724,
     "name": "decidueye",
     "order": 724,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 724,
@@ -18187,6 +18911,7 @@
     "species_id": 725,
     "name": "litten",
     "order": 725,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 725,
@@ -18207,6 +18932,7 @@
     "species_id": 726,
     "name": "torracat",
     "order": 726,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 726,
@@ -18227,6 +18953,7 @@
     "species_id": 727,
     "name": "incineroar",
     "order": 727,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 727,
@@ -18247,6 +18974,7 @@
     "species_id": 728,
     "name": "popplio",
     "order": 728,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 728,
@@ -18267,6 +18995,7 @@
     "species_id": 729,
     "name": "brionne",
     "order": 729,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 729,
@@ -18287,6 +19016,7 @@
     "species_id": 730,
     "name": "primarina",
     "order": 730,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 730,
@@ -18307,6 +19037,7 @@
     "species_id": 731,
     "name": "pikipek",
     "order": 731,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 731,
@@ -18327,6 +19058,7 @@
     "species_id": 732,
     "name": "trumbeak",
     "order": 732,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 732,
@@ -18347,6 +19079,7 @@
     "species_id": 733,
     "name": "toucannon",
     "order": 733,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 733,
@@ -18367,6 +19100,7 @@
     "species_id": 734,
     "name": "yungoos",
     "order": 734,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 734,
@@ -18387,6 +19121,7 @@
     "species_id": 735,
     "name": "gumshoos",
     "order": 735,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 735,
@@ -18420,6 +19155,7 @@
     "species_id": 736,
     "name": "grubbin",
     "order": 736,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 736,
@@ -18440,6 +19176,7 @@
     "species_id": 737,
     "name": "charjabug",
     "order": 737,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 737,
@@ -18460,6 +19197,7 @@
     "species_id": 738,
     "name": "vikavolt",
     "order": 738,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 738,
@@ -18493,6 +19231,7 @@
     "species_id": 739,
     "name": "crabrawler",
     "order": 739,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 739,
@@ -18513,6 +19252,7 @@
     "species_id": 740,
     "name": "crabominable",
     "order": 740,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 740,
@@ -18546,6 +19286,7 @@
     "species_id": 741,
     "name": "oricorio",
     "order": 741,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 741,
@@ -18605,6 +19346,7 @@
     "species_id": 742,
     "name": "cutiefly",
     "order": 742,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 742,
@@ -18625,6 +19367,7 @@
     "species_id": 743,
     "name": "ribombee",
     "order": 743,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 743,
@@ -18658,6 +19401,7 @@
     "species_id": 744,
     "name": "rockruff",
     "order": 744,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 744,
@@ -18691,6 +19435,7 @@
     "species_id": 745,
     "name": "lycanroc",
     "order": 745,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 745,
@@ -18737,6 +19482,7 @@
     "species_id": 746,
     "name": "wishiwashi",
     "order": 746,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 746,
@@ -18770,6 +19516,7 @@
     "species_id": 747,
     "name": "mareanie",
     "order": 747,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 747,
@@ -18790,6 +19537,7 @@
     "species_id": 748,
     "name": "toxapex",
     "order": 748,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 748,
@@ -18810,6 +19558,7 @@
     "species_id": 749,
     "name": "mudbray",
     "order": 749,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 749,
@@ -18830,6 +19579,7 @@
     "species_id": 750,
     "name": "mudsdale",
     "order": 750,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 750,
@@ -18850,6 +19600,7 @@
     "species_id": 751,
     "name": "dewpider",
     "order": 751,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 751,
@@ -18870,6 +19621,7 @@
     "species_id": 752,
     "name": "araquanid",
     "order": 752,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 752,
@@ -18903,6 +19655,7 @@
     "species_id": 753,
     "name": "fomantis",
     "order": 753,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 753,
@@ -18923,6 +19676,7 @@
     "species_id": 754,
     "name": "lurantis",
     "order": 754,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 754,
@@ -18956,6 +19710,7 @@
     "species_id": 755,
     "name": "morelull",
     "order": 755,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 755,
@@ -18976,6 +19731,7 @@
     "species_id": 756,
     "name": "shiinotic",
     "order": 756,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 756,
@@ -18996,6 +19752,7 @@
     "species_id": 757,
     "name": "salandit",
     "order": 757,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 757,
@@ -19016,6 +19773,7 @@
     "species_id": 758,
     "name": "salazzle",
     "order": 758,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 758,
@@ -19049,6 +19807,7 @@
     "species_id": 759,
     "name": "stufful",
     "order": 759,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 759,
@@ -19069,6 +19828,7 @@
     "species_id": 760,
     "name": "bewear",
     "order": 760,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 760,
@@ -19089,6 +19849,7 @@
     "species_id": 761,
     "name": "bounsweet",
     "order": 761,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 761,
@@ -19109,6 +19870,7 @@
     "species_id": 762,
     "name": "steenee",
     "order": 762,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 762,
@@ -19129,6 +19891,7 @@
     "species_id": 763,
     "name": "tsareena",
     "order": 763,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 763,
@@ -19149,6 +19912,7 @@
     "species_id": 764,
     "name": "comfey",
     "order": 764,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 764,
@@ -19169,6 +19933,7 @@
     "species_id": 765,
     "name": "oranguru",
     "order": 765,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 765,
@@ -19189,6 +19954,7 @@
     "species_id": 766,
     "name": "passimian",
     "order": 766,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 766,
@@ -19209,6 +19975,7 @@
     "species_id": 767,
     "name": "wimpod",
     "order": 767,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 767,
@@ -19229,6 +19996,7 @@
     "species_id": 768,
     "name": "golisopod",
     "order": 768,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 768,
@@ -19262,6 +20030,7 @@
     "species_id": 769,
     "name": "sandygast",
     "order": 769,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 769,
@@ -19282,6 +20051,7 @@
     "species_id": 770,
     "name": "palossand",
     "order": 770,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 770,
@@ -19302,6 +20072,7 @@
     "species_id": 771,
     "name": "pyukumuku",
     "order": 771,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 771,
@@ -19322,6 +20093,7 @@
     "species_id": 772,
     "name": "type-null",
     "order": 772,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 772,
@@ -19342,6 +20114,7 @@
     "species_id": 773,
     "name": "silvally",
     "order": 773,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 773,
@@ -19464,6 +20237,7 @@
     "species_id": 774,
     "name": "minior",
     "order": 774,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 774,
@@ -19653,6 +20427,7 @@
     "species_id": 775,
     "name": "komala",
     "order": 775,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 775,
@@ -19673,6 +20448,7 @@
     "species_id": 776,
     "name": "turtonator",
     "order": 776,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 776,
@@ -19693,6 +20469,7 @@
     "species_id": 777,
     "name": "togedemaru",
     "order": 777,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 777,
@@ -19726,6 +20503,7 @@
     "species_id": 778,
     "name": "mimikyu",
     "order": 778,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 778,
@@ -19785,6 +20563,7 @@
     "species_id": 779,
     "name": "bruxish",
     "order": 779,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 779,
@@ -19805,6 +20584,7 @@
     "species_id": 780,
     "name": "drampa",
     "order": 780,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 780,
@@ -19838,6 +20618,7 @@
     "species_id": 781,
     "name": "dhelmise",
     "order": 781,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 781,
@@ -19858,6 +20639,7 @@
     "species_id": 782,
     "name": "jangmo-o",
     "order": 782,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 782,
@@ -19878,6 +20660,7 @@
     "species_id": 783,
     "name": "hakamo-o",
     "order": 783,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 783,
@@ -19898,6 +20681,7 @@
     "species_id": 784,
     "name": "kommo-o",
     "order": 784,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 784,
@@ -19931,6 +20715,7 @@
     "species_id": 785,
     "name": "tapu-koko",
     "order": 785,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 785,
@@ -19951,6 +20736,7 @@
     "species_id": 786,
     "name": "tapu-lele",
     "order": 786,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 786,
@@ -19971,6 +20757,7 @@
     "species_id": 787,
     "name": "tapu-bulu",
     "order": 787,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 787,
@@ -19991,6 +20778,7 @@
     "species_id": 788,
     "name": "tapu-fini",
     "order": 788,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 788,
@@ -20011,6 +20799,7 @@
     "species_id": 789,
     "name": "cosmog",
     "order": 789,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 789,
@@ -20031,6 +20820,7 @@
     "species_id": 790,
     "name": "cosmoem",
     "order": 790,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 790,
@@ -20051,6 +20841,7 @@
     "species_id": 791,
     "name": "solgaleo",
     "order": 791,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 791,
@@ -20071,6 +20862,7 @@
     "species_id": 792,
     "name": "lunala",
     "order": 792,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 792,
@@ -20091,6 +20883,7 @@
     "species_id": 793,
     "name": "nihilego",
     "order": 793,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 793,
@@ -20111,6 +20904,7 @@
     "species_id": 794,
     "name": "buzzwole",
     "order": 794,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 794,
@@ -20131,6 +20925,7 @@
     "species_id": 795,
     "name": "pheromosa",
     "order": 795,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 795,
@@ -20151,6 +20946,7 @@
     "species_id": 796,
     "name": "xurkitree",
     "order": 796,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 796,
@@ -20171,6 +20967,7 @@
     "species_id": 797,
     "name": "celesteela",
     "order": 797,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 797,
@@ -20191,6 +20988,7 @@
     "species_id": 798,
     "name": "kartana",
     "order": 798,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 798,
@@ -20211,6 +21009,7 @@
     "species_id": 799,
     "name": "guzzlord",
     "order": 799,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 799,
@@ -20231,6 +21030,7 @@
     "species_id": 800,
     "name": "necrozma",
     "order": 800,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 800,
@@ -20290,6 +21090,7 @@
     "species_id": 801,
     "name": "magearna",
     "order": 801,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 801,
@@ -20349,6 +21150,7 @@
     "species_id": 802,
     "name": "marshadow",
     "order": 802,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 802,
@@ -20369,6 +21171,7 @@
     "species_id": 803,
     "name": "poipole",
     "order": 803,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 803,
@@ -20389,6 +21192,7 @@
     "species_id": 804,
     "name": "naganadel",
     "order": 804,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 804,
@@ -20409,6 +21213,7 @@
     "species_id": 805,
     "name": "stakataka",
     "order": 805,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 805,
@@ -20429,6 +21234,7 @@
     "species_id": 806,
     "name": "blacephalon",
     "order": 806,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 806,
@@ -20449,6 +21255,7 @@
     "species_id": 807,
     "name": "zeraora",
     "order": 807,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 807,
@@ -20482,6 +21289,7 @@
     "species_id": 808,
     "name": "meltan",
     "order": 808,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 808,
@@ -20502,6 +21310,7 @@
     "species_id": 809,
     "name": "melmetal",
     "order": 809,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 809,
@@ -20535,6 +21344,7 @@
     "species_id": 810,
     "name": "grookey",
     "order": 810,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 810,
@@ -20555,6 +21365,7 @@
     "species_id": 811,
     "name": "thwackey",
     "order": 811,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 811,
@@ -20575,6 +21386,7 @@
     "species_id": 812,
     "name": "rillaboom",
     "order": 812,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 812,
@@ -20608,6 +21420,7 @@
     "species_id": 813,
     "name": "scorbunny",
     "order": 813,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 813,
@@ -20628,6 +21441,7 @@
     "species_id": 814,
     "name": "raboot",
     "order": 814,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 814,
@@ -20648,6 +21462,7 @@
     "species_id": 815,
     "name": "cinderace",
     "order": 815,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 815,
@@ -20681,6 +21496,7 @@
     "species_id": 816,
     "name": "sobble",
     "order": 816,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 816,
@@ -20701,6 +21517,7 @@
     "species_id": 817,
     "name": "drizzile",
     "order": 817,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 817,
@@ -20721,6 +21538,7 @@
     "species_id": 818,
     "name": "inteleon",
     "order": 818,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 818,
@@ -20754,6 +21572,7 @@
     "species_id": 819,
     "name": "skwovet",
     "order": 819,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 819,
@@ -20774,6 +21593,7 @@
     "species_id": 820,
     "name": "greedent",
     "order": 820,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 820,
@@ -20794,6 +21614,7 @@
     "species_id": 821,
     "name": "rookidee",
     "order": 821,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 821,
@@ -20814,6 +21635,7 @@
     "species_id": 822,
     "name": "corvisquire",
     "order": 822,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 822,
@@ -20834,6 +21656,7 @@
     "species_id": 823,
     "name": "corviknight",
     "order": 823,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 823,
@@ -20867,6 +21690,7 @@
     "species_id": 824,
     "name": "blipbug",
     "order": 824,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 824,
@@ -20887,6 +21711,7 @@
     "species_id": 825,
     "name": "dottler",
     "order": 825,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 825,
@@ -20907,6 +21732,7 @@
     "species_id": 826,
     "name": "orbeetle",
     "order": 826,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 826,
@@ -20940,6 +21766,7 @@
     "species_id": 827,
     "name": "nickit",
     "order": 827,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 827,
@@ -20960,6 +21787,7 @@
     "species_id": 828,
     "name": "thievul",
     "order": 828,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 828,
@@ -20980,6 +21808,7 @@
     "species_id": 829,
     "name": "gossifleur",
     "order": 829,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 829,
@@ -21000,6 +21829,7 @@
     "species_id": 830,
     "name": "eldegoss",
     "order": 830,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 830,
@@ -21020,6 +21850,7 @@
     "species_id": 831,
     "name": "wooloo",
     "order": 831,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 831,
@@ -21040,6 +21871,7 @@
     "species_id": 832,
     "name": "dubwool",
     "order": 832,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 832,
@@ -21060,6 +21892,7 @@
     "species_id": 833,
     "name": "chewtle",
     "order": 833,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 833,
@@ -21080,6 +21913,7 @@
     "species_id": 834,
     "name": "drednaw",
     "order": 834,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 834,
@@ -21113,6 +21947,7 @@
     "species_id": 835,
     "name": "yamper",
     "order": 835,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 835,
@@ -21133,6 +21968,7 @@
     "species_id": 836,
     "name": "boltund",
     "order": 836,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 836,
@@ -21153,6 +21989,7 @@
     "species_id": 837,
     "name": "rolycoly",
     "order": 837,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 837,
@@ -21173,6 +22010,7 @@
     "species_id": 838,
     "name": "carkol",
     "order": 838,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 838,
@@ -21193,6 +22031,7 @@
     "species_id": 839,
     "name": "coalossal",
     "order": 839,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 839,
@@ -21226,6 +22065,7 @@
     "species_id": 840,
     "name": "applin",
     "order": 840,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 840,
@@ -21246,6 +22086,7 @@
     "species_id": 841,
     "name": "flapple",
     "order": 841,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 841,
@@ -21279,6 +22120,7 @@
     "species_id": 842,
     "name": "appletun",
     "order": 842,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 842,
@@ -21312,6 +22154,7 @@
     "species_id": 843,
     "name": "silicobra",
     "order": 843,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 843,
@@ -21332,6 +22175,7 @@
     "species_id": 844,
     "name": "sandaconda",
     "order": 844,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 844,
@@ -21365,6 +22209,7 @@
     "species_id": 845,
     "name": "cramorant",
     "order": 845,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 845,
@@ -21411,6 +22256,7 @@
     "species_id": 846,
     "name": "arrokuda",
     "order": 846,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 846,
@@ -21431,6 +22277,7 @@
     "species_id": 847,
     "name": "barraskewda",
     "order": 847,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 847,
@@ -21451,6 +22298,7 @@
     "species_id": 848,
     "name": "toxel",
     "order": 848,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 848,
@@ -21471,6 +22319,7 @@
     "species_id": 849,
     "name": "toxtricity",
     "order": 849,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 849,
@@ -21530,6 +22379,7 @@
     "species_id": 850,
     "name": "sizzlipede",
     "order": 850,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 850,
@@ -21550,6 +22400,7 @@
     "species_id": 851,
     "name": "centiskorch",
     "order": 851,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 851,
@@ -21583,6 +22434,7 @@
     "species_id": 852,
     "name": "clobbopus",
     "order": 852,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 852,
@@ -21603,6 +22455,7 @@
     "species_id": 853,
     "name": "grapploct",
     "order": 853,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 853,
@@ -21623,6 +22476,7 @@
     "species_id": 854,
     "name": "sinistea",
     "order": 854,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 854,
@@ -21649,6 +22503,7 @@
     "species_id": 855,
     "name": "polteageist",
     "order": 855,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 855,
@@ -21675,6 +22530,7 @@
     "species_id": 856,
     "name": "hatenna",
     "order": 856,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 856,
@@ -21695,6 +22551,7 @@
     "species_id": 857,
     "name": "hattrem",
     "order": 857,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 857,
@@ -21715,6 +22572,7 @@
     "species_id": 858,
     "name": "hatterene",
     "order": 858,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 858,
@@ -21748,6 +22606,7 @@
     "species_id": 859,
     "name": "impidimp",
     "order": 859,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 859,
@@ -21768,6 +22627,7 @@
     "species_id": 860,
     "name": "morgrem",
     "order": 860,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 860,
@@ -21788,6 +22648,7 @@
     "species_id": 861,
     "name": "grimmsnarl",
     "order": 861,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 861,
@@ -21821,6 +22682,7 @@
     "species_id": 862,
     "name": "obstagoon",
     "order": 862,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 862,
@@ -21841,6 +22703,7 @@
     "species_id": 863,
     "name": "perrserker",
     "order": 863,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 863,
@@ -21861,6 +22724,7 @@
     "species_id": 864,
     "name": "cursola",
     "order": 864,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 864,
@@ -21881,6 +22745,7 @@
     "species_id": 865,
     "name": "sirfetchd",
     "order": 865,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 865,
@@ -21901,6 +22766,7 @@
     "species_id": 866,
     "name": "mr-rime",
     "order": 866,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 866,
@@ -21921,6 +22787,7 @@
     "species_id": 867,
     "name": "runerigus",
     "order": 867,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 867,
@@ -21941,6 +22808,7 @@
     "species_id": 868,
     "name": "milcery",
     "order": 868,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 868,
@@ -21961,6 +22829,7 @@
     "species_id": 869,
     "name": "alcremie",
     "order": 869,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 869,
@@ -22366,6 +23235,7 @@
     "species_id": 870,
     "name": "falinks",
     "order": 870,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 870,
@@ -22399,6 +23269,7 @@
     "species_id": 871,
     "name": "pincurchin",
     "order": 871,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 871,
@@ -22419,6 +23290,7 @@
     "species_id": 872,
     "name": "snom",
     "order": 872,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 872,
@@ -22439,6 +23311,7 @@
     "species_id": 873,
     "name": "frosmoth",
     "order": 873,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 873,
@@ -22459,6 +23332,7 @@
     "species_id": 874,
     "name": "stonjourner",
     "order": 874,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 874,
@@ -22479,6 +23353,7 @@
     "species_id": 875,
     "name": "eiscue",
     "order": 875,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 875,
@@ -22512,6 +23387,7 @@
     "species_id": 876,
     "name": "indeedee",
     "order": 876,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 876,
@@ -22545,6 +23421,7 @@
     "species_id": 877,
     "name": "morpeko",
     "order": 877,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 877,
@@ -22578,6 +23455,7 @@
     "species_id": 878,
     "name": "cufant",
     "order": 878,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 878,
@@ -22598,6 +23476,7 @@
     "species_id": 879,
     "name": "copperajah",
     "order": 879,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 879,
@@ -22631,6 +23510,7 @@
     "species_id": 880,
     "name": "dracozolt",
     "order": 880,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 880,
@@ -22651,6 +23531,7 @@
     "species_id": 881,
     "name": "arctozolt",
     "order": 881,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 881,
@@ -22671,6 +23552,7 @@
     "species_id": 882,
     "name": "dracovish",
     "order": 882,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 882,
@@ -22691,6 +23573,7 @@
     "species_id": 883,
     "name": "arctovish",
     "order": 883,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 883,
@@ -22711,6 +23594,7 @@
     "species_id": 884,
     "name": "duraludon",
     "order": 884,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 884,
@@ -22744,6 +23628,7 @@
     "species_id": 885,
     "name": "dreepy",
     "order": 885,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 885,
@@ -22764,6 +23649,7 @@
     "species_id": 886,
     "name": "drakloak",
     "order": 886,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 886,
@@ -22784,6 +23670,7 @@
     "species_id": 887,
     "name": "dragapult",
     "order": 887,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 887,
@@ -22804,6 +23691,7 @@
     "species_id": 888,
     "name": "zacian",
     "order": 888,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 888,
@@ -22837,6 +23725,7 @@
     "species_id": 889,
     "name": "zamazenta",
     "order": 889,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 889,
@@ -22870,6 +23759,7 @@
     "species_id": 890,
     "name": "eternatus",
     "order": 890,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 890,
@@ -22903,6 +23793,7 @@
     "species_id": 891,
     "name": "kubfu",
     "order": 891,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 891,
@@ -22923,6 +23814,7 @@
     "species_id": 892,
     "name": "urshifu",
     "order": 892,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 892,
@@ -22982,6 +23874,7 @@
     "species_id": 893,
     "name": "zarude",
     "order": 893,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 893,
@@ -23015,6 +23908,7 @@
     "species_id": 894,
     "name": "regieleki",
     "order": 894,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 894,
@@ -23035,6 +23929,7 @@
     "species_id": 895,
     "name": "regidrago",
     "order": 895,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 895,
@@ -23055,6 +23950,7 @@
     "species_id": 896,
     "name": "glastrier",
     "order": 896,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 896,
@@ -23075,6 +23971,7 @@
     "species_id": 897,
     "name": "spectrier",
     "order": 897,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 897,
@@ -23095,6 +23992,7 @@
     "species_id": 898,
     "name": "calyrex",
     "order": 898,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 898,
@@ -23141,6 +24039,7 @@
     "species_id": 899,
     "name": "wyrdeer",
     "order": 899,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 899,
@@ -23161,6 +24060,7 @@
     "species_id": 900,
     "name": "kleavor",
     "order": 900,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 900,
@@ -23181,6 +24081,7 @@
     "species_id": 901,
     "name": "ursaluna",
     "order": 901,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 901,
@@ -23214,6 +24115,7 @@
     "species_id": 902,
     "name": "basculegion",
     "order": 902,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 902,
@@ -23247,6 +24149,7 @@
     "species_id": 903,
     "name": "sneasler",
     "order": 903,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 903,
@@ -23267,6 +24170,7 @@
     "species_id": 904,
     "name": "overqwil",
     "order": 904,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 904,
@@ -23287,6 +24191,7 @@
     "species_id": 905,
     "name": "enamorus",
     "order": 905,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 905,
@@ -23320,6 +24225,7 @@
     "species_id": 906,
     "name": "sprigatito",
     "order": 906,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 906,
@@ -23340,6 +24246,7 @@
     "species_id": 907,
     "name": "floragato",
     "order": 907,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 907,
@@ -23360,6 +24267,7 @@
     "species_id": 908,
     "name": "meowscarada",
     "order": 908,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 908,
@@ -23380,6 +24288,7 @@
     "species_id": 909,
     "name": "fuecoco",
     "order": 909,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 909,
@@ -23400,6 +24309,7 @@
     "species_id": 910,
     "name": "crocalor",
     "order": 910,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 910,
@@ -23420,6 +24330,7 @@
     "species_id": 911,
     "name": "skeledirge",
     "order": 911,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 911,
@@ -23440,6 +24351,7 @@
     "species_id": 912,
     "name": "quaxly",
     "order": 912,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 912,
@@ -23460,6 +24372,7 @@
     "species_id": 913,
     "name": "quaxwell",
     "order": 913,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 913,
@@ -23480,6 +24393,7 @@
     "species_id": 914,
     "name": "quaquaval",
     "order": 914,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 914,
@@ -23500,6 +24414,7 @@
     "species_id": 915,
     "name": "lechonk",
     "order": 915,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 915,
@@ -23520,6 +24435,7 @@
     "species_id": 916,
     "name": "oinkologne",
     "order": 916,
+    "has_gender_differences": true,
     "varieties": [
       {
         "pokemon_id": 916,
@@ -23553,6 +24469,7 @@
     "species_id": 917,
     "name": "tarountula",
     "order": 918,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 917,
@@ -23573,6 +24490,7 @@
     "species_id": 918,
     "name": "spidops",
     "order": 919,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 918,
@@ -23593,6 +24511,7 @@
     "species_id": 919,
     "name": "nymble",
     "order": 920,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 919,
@@ -23613,6 +24532,7 @@
     "species_id": 920,
     "name": "lokix",
     "order": 921,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 920,
@@ -23633,6 +24553,7 @@
     "species_id": 921,
     "name": "pawmi",
     "order": 954,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 921,
@@ -23653,6 +24574,7 @@
     "species_id": 922,
     "name": "pawmo",
     "order": 955,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 922,
@@ -23673,6 +24595,7 @@
     "species_id": 923,
     "name": "pawmot",
     "order": 956,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 923,
@@ -23693,6 +24616,7 @@
     "species_id": 924,
     "name": "tandemaus",
     "order": 945,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 924,
@@ -23713,6 +24637,7 @@
     "species_id": 925,
     "name": "maushold",
     "order": 946,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 925,
@@ -23746,6 +24671,7 @@
     "species_id": 926,
     "name": "fidough",
     "order": 970,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 926,
@@ -23766,6 +24692,7 @@
     "species_id": 927,
     "name": "dachsbun",
     "order": 971,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 927,
@@ -23786,6 +24713,7 @@
     "species_id": 928,
     "name": "smoliv",
     "order": 935,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 928,
@@ -23806,6 +24734,7 @@
     "species_id": 929,
     "name": "dolliv",
     "order": 936,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 929,
@@ -23826,6 +24755,7 @@
     "species_id": 930,
     "name": "arboliva",
     "order": 937,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 930,
@@ -23846,6 +24776,7 @@
     "species_id": 931,
     "name": "squawkabilly",
     "order": 960,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 931,
@@ -23905,6 +24836,7 @@
     "species_id": 932,
     "name": "nacli",
     "order": 963,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 932,
@@ -23925,6 +24857,7 @@
     "species_id": 933,
     "name": "naclstack",
     "order": 964,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 933,
@@ -23945,6 +24878,7 @@
     "species_id": 934,
     "name": "garganacl",
     "order": 965,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 934,
@@ -23965,6 +24899,7 @@
     "species_id": 935,
     "name": "charcadet",
     "order": 1003,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 935,
@@ -23985,6 +24920,7 @@
     "species_id": 936,
     "name": "armarouge",
     "order": 1004,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 936,
@@ -24005,6 +24941,7 @@
     "species_id": 937,
     "name": "ceruledge",
     "order": 1005,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 937,
@@ -24025,6 +24962,7 @@
     "species_id": 938,
     "name": "tadbulb",
     "order": 940,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 938,
@@ -24045,6 +24983,7 @@
     "species_id": 939,
     "name": "bellibolt",
     "order": 941,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 939,
@@ -24065,6 +25004,7 @@
     "species_id": 940,
     "name": "wattrel",
     "order": 957,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 940,
@@ -24085,6 +25025,7 @@
     "species_id": 941,
     "name": "kilowattrel",
     "order": 958,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 941,
@@ -24105,6 +25046,7 @@
     "species_id": 942,
     "name": "maschiff",
     "order": 972,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 942,
@@ -24125,6 +25067,7 @@
     "species_id": 943,
     "name": "mabosstiff",
     "order": 973,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 943,
@@ -24145,6 +25088,7 @@
     "species_id": 944,
     "name": "shroodle",
     "order": 968,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 944,
@@ -24165,6 +25109,7 @@
     "species_id": 945,
     "name": "grafaiai",
     "order": 969,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 945,
@@ -24185,6 +25130,7 @@
     "species_id": 946,
     "name": "bramblin",
     "order": 974,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 946,
@@ -24205,6 +25151,7 @@
     "species_id": 947,
     "name": "brambleghast",
     "order": 975,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 947,
@@ -24225,6 +25172,7 @@
     "species_id": 948,
     "name": "toedscool",
     "order": 1006,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 948,
@@ -24245,6 +25193,7 @@
     "species_id": 949,
     "name": "toedscruel",
     "order": 1007,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 949,
@@ -24265,6 +25214,7 @@
     "species_id": 950,
     "name": "klawf",
     "order": 962,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 950,
@@ -24285,6 +25235,7 @@
     "species_id": 951,
     "name": "capsakid",
     "order": 938,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 951,
@@ -24305,6 +25256,7 @@
     "species_id": 952,
     "name": "scovillain",
     "order": 939,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 952,
@@ -24338,6 +25290,7 @@
     "species_id": 953,
     "name": "rellor",
     "order": 922,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 953,
@@ -24358,6 +25311,7 @@
     "species_id": 954,
     "name": "rabsca",
     "order": 923,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 954,
@@ -24378,6 +25332,7 @@
     "species_id": 955,
     "name": "flittle",
     "order": 926,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 955,
@@ -24398,6 +25353,7 @@
     "species_id": 956,
     "name": "espathra",
     "order": 927,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 956,
@@ -24418,6 +25374,7 @@
     "species_id": 957,
     "name": "tinkatink",
     "order": 1000,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 957,
@@ -24438,6 +25395,7 @@
     "species_id": 958,
     "name": "tinkatuff",
     "order": 1001,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 958,
@@ -24458,6 +25416,7 @@
     "species_id": 959,
     "name": "tinkaton",
     "order": 1002,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 959,
@@ -24478,6 +25437,7 @@
     "species_id": 960,
     "name": "wiglett",
     "order": 929,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 960,
@@ -24498,6 +25458,7 @@
     "species_id": 961,
     "name": "wugtrio",
     "order": 930,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 961,
@@ -24518,6 +25479,7 @@
     "species_id": 962,
     "name": "bombirdier",
     "order": 959,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 962,
@@ -24538,6 +25500,7 @@
     "species_id": 963,
     "name": "finizen",
     "order": 933,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 963,
@@ -24558,6 +25521,7 @@
     "species_id": 964,
     "name": "palafin",
     "order": 934,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 964,
@@ -24591,6 +25555,7 @@
     "species_id": 965,
     "name": "varoom",
     "order": 942,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 965,
@@ -24611,6 +25576,7 @@
     "species_id": 966,
     "name": "revavroom",
     "order": 943,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 966,
@@ -24631,6 +25597,7 @@
     "species_id": 967,
     "name": "cyclizar",
     "order": 953,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 967,
@@ -24651,6 +25618,7 @@
     "species_id": 968,
     "name": "orthworm",
     "order": 944,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 968,
@@ -24671,6 +25639,7 @@
     "species_id": 969,
     "name": "glimmet",
     "order": 966,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 969,
@@ -24691,6 +25660,7 @@
     "species_id": 970,
     "name": "glimmora",
     "order": 967,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 970,
@@ -24724,6 +25694,7 @@
     "species_id": 971,
     "name": "greavard",
     "order": 924,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 971,
@@ -24744,6 +25715,7 @@
     "species_id": 972,
     "name": "houndstone",
     "order": 925,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 972,
@@ -24764,6 +25736,7 @@
     "species_id": 973,
     "name": "flamigo",
     "order": 961,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 973,
@@ -24784,6 +25757,7 @@
     "species_id": 974,
     "name": "cetoddle",
     "order": 947,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 974,
@@ -24804,6 +25778,7 @@
     "species_id": 975,
     "name": "cetitan",
     "order": 948,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 975,
@@ -24824,6 +25799,7 @@
     "species_id": 976,
     "name": "veluza",
     "order": 932,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 976,
@@ -24844,6 +25820,7 @@
     "species_id": 977,
     "name": "dondozo",
     "order": 931,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 977,
@@ -24864,6 +25841,7 @@
     "species_id": 978,
     "name": "tatsugiri",
     "order": 952,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 978,
@@ -24949,6 +25927,7 @@
     "species_id": 979,
     "name": "annihilape",
     "order": 1010,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 979,
@@ -24969,6 +25948,7 @@
     "species_id": 980,
     "name": "clodsire",
     "order": 1009,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 980,
@@ -24989,6 +25969,7 @@
     "species_id": 981,
     "name": "farigiraf",
     "order": 928,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 981,
@@ -25009,6 +25990,7 @@
     "species_id": 982,
     "name": "dudunsparce",
     "order": 917,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 982,
@@ -25042,6 +26024,7 @@
     "species_id": 983,
     "name": "kingambit",
     "order": 1008,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 983,
@@ -25062,6 +26045,7 @@
     "species_id": 984,
     "name": "great-tusk",
     "order": 978,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 984,
@@ -25082,6 +26066,7 @@
     "species_id": 985,
     "name": "scream-tail",
     "order": 982,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 985,
@@ -25102,6 +26087,7 @@
     "species_id": 986,
     "name": "brute-bonnet",
     "order": 979,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 986,
@@ -25122,6 +26108,7 @@
     "species_id": 987,
     "name": "flutter-mane",
     "order": 983,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 987,
@@ -25142,6 +26129,7 @@
     "species_id": 988,
     "name": "slither-wing",
     "order": 984,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 988,
@@ -25162,6 +26150,7 @@
     "species_id": 989,
     "name": "sandy-shocks",
     "order": 981,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 989,
@@ -25182,6 +26171,7 @@
     "species_id": 990,
     "name": "iron-treads",
     "order": 986,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 990,
@@ -25202,6 +26192,7 @@
     "species_id": 991,
     "name": "iron-bundle",
     "order": 992,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 991,
@@ -25222,6 +26213,7 @@
     "species_id": 992,
     "name": "iron-hands",
     "order": 989,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 992,
@@ -25242,6 +26234,7 @@
     "species_id": 993,
     "name": "iron-jugulis",
     "order": 990,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 993,
@@ -25262,6 +26255,7 @@
     "species_id": 994,
     "name": "iron-moth",
     "order": 988,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 994,
@@ -25282,6 +26276,7 @@
     "species_id": 995,
     "name": "iron-thorns",
     "order": 991,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 995,
@@ -25302,6 +26297,7 @@
     "species_id": 996,
     "name": "frigibax",
     "order": 949,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 996,
@@ -25322,6 +26318,7 @@
     "species_id": 997,
     "name": "arctibax",
     "order": 950,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 997,
@@ -25342,6 +26339,7 @@
     "species_id": 998,
     "name": "baxcalibur",
     "order": 951,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 998,
@@ -25375,6 +26373,7 @@
     "species_id": 999,
     "name": "gimmighoul",
     "order": 976,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 999,
@@ -25408,6 +26407,7 @@
     "species_id": 1000,
     "name": "gholdengo",
     "order": 977,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1000,
@@ -25428,6 +26428,7 @@
     "species_id": 1001,
     "name": "wo-chien",
     "order": 996,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1001,
@@ -25448,6 +26449,7 @@
     "species_id": 1002,
     "name": "chien-pao",
     "order": 995,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1002,
@@ -25468,6 +26470,7 @@
     "species_id": 1003,
     "name": "ting-lu",
     "order": 994,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1003,
@@ -25488,6 +26491,7 @@
     "species_id": 1004,
     "name": "chi-yu",
     "order": 997,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1004,
@@ -25508,6 +26512,7 @@
     "species_id": 1005,
     "name": "roaring-moon",
     "order": 985,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1005,
@@ -25528,6 +26533,7 @@
     "species_id": 1006,
     "name": "iron-valiant",
     "order": 993,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1006,
@@ -25548,6 +26554,7 @@
     "species_id": 1007,
     "name": "koraidon",
     "order": 998,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1007,
@@ -25620,6 +26627,7 @@
     "species_id": 1008,
     "name": "miraidon",
     "order": 999,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1008,
@@ -25692,6 +26700,7 @@
     "species_id": 1009,
     "name": "walking-wake",
     "order": 1011,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1009,
@@ -25712,6 +26721,7 @@
     "species_id": 1010,
     "name": "iron-leaves",
     "order": 1012,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1010,
@@ -25732,6 +26742,7 @@
     "species_id": 1011,
     "name": "dipplin",
     "order": 1013,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1011,
@@ -25752,6 +26763,7 @@
     "species_id": 1012,
     "name": "poltchageist",
     "order": 1014,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1012,
@@ -25778,6 +26790,7 @@
     "species_id": 1013,
     "name": "sinistcha",
     "order": 1015,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1013,
@@ -25804,6 +26817,7 @@
     "species_id": 1014,
     "name": "okidogi",
     "order": 1016,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1014,
@@ -25824,6 +26838,7 @@
     "species_id": 1015,
     "name": "munkidori",
     "order": 1017,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1015,
@@ -25844,6 +26859,7 @@
     "species_id": 1016,
     "name": "fezandipiti",
     "order": 1018,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1016,
@@ -25864,6 +26880,7 @@
     "species_id": 1017,
     "name": "ogerpon",
     "order": 1019,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1017,
@@ -25923,6 +26940,7 @@
     "species_id": 1018,
     "name": "archaludon",
     "order": 1020,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1018,
@@ -25943,6 +26961,7 @@
     "species_id": 1019,
     "name": "hydrapple",
     "order": 1021,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1019,
@@ -25963,6 +26982,7 @@
     "species_id": 1020,
     "name": "gouging-fire",
     "order": 1022,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1020,
@@ -25983,6 +27003,7 @@
     "species_id": 1021,
     "name": "raging-bolt",
     "order": 1023,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1021,
@@ -26003,6 +27024,7 @@
     "species_id": 1022,
     "name": "iron-boulder",
     "order": 1024,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1022,
@@ -26023,6 +27045,7 @@
     "species_id": 1023,
     "name": "iron-crown",
     "order": 1025,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1023,
@@ -26043,6 +27066,7 @@
     "species_id": 1024,
     "name": "terapagos",
     "order": 1026,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1024,
@@ -26089,6 +27113,7 @@
     "species_id": 1025,
     "name": "pecharunt",
     "order": 1027,
+    "has_gender_differences": false,
     "varieties": [
       {
         "pokemon_id": 1025,

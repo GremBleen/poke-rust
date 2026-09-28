@@ -1,95 +1,108 @@
-use crate::pokedex::{
-    DexIdentity, PokemonForm, PokemonSpecies, PokemonVariety, identity::CaughtStatus::NotCaught,
-};
-
-pub trait DexType {
-    fn populate(&self, catalogue: &mut Vec<PokemonSpecies>) -> Vec<DexIdentity>;
-}
+use crate::pokedex::{DexIdentity, Gender, PokemonSpecies};
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub struct Catalogue {
     pub pokemon_array: Vec<DexIdentity>,
 }
 
-impl Catalogue {
-    pub fn populate_as(&mut self, dex_type: &impl DexType, catalogue: &mut Vec<PokemonSpecies>) {
-        self.pokemon_array = dex_type.populate(catalogue);
-    }
+pub enum DexKind {
+    FinalForm,
+    Living,
+    LivingForm,
+    LivingFormGender,
 }
 
-pub struct FinalForm;
-pub struct Living;
-pub struct LivingForm;
-pub struct LivingFormGender;
-
-// impl DexType for FinalForm {
-//     // Needs to populate using the first form per species, but only where can evolve is false
-//     fn populate(&self, catalogue: &mut Vec<PokemonSpecies>) -> Vec<DexIdentity> {
-//         return Vec::with_capacity(0);
-//     }
-// }
-
-impl DexType for Living {
-    // Needs to populate using the first form per species
-    fn populate(&self, catalogue: &mut Vec<PokemonSpecies>) -> Vec<DexIdentity> {
-        let identities: Vec<DexIdentity> = catalogue
-            .iter()
-            .flat_map(|species: &PokemonSpecies| {
-                species
-                    .varieties
-                    .iter()
-                    .flat_map(|variety: &PokemonVariety| {
+// TODO: Fix box, col and row number calculations | Finish FinalForm building
+impl Catalogue {
+    pub fn new(kind: DexKind, source: &Vec<PokemonSpecies>) -> Self {
+        let pokemon_array: Vec<DexIdentity> = match kind {
+            DexKind::FinalForm => source
+                .iter()
+                .flat_map(|species| {
+                    species.varieties.iter().flat_map(|variety| {
                         variety
                             .forms
                             .iter()
                             .take(1)
-                            .filter(|form: &&PokemonForm| !form.is_battle_only)
-                            .map(|form: &PokemonForm| DexIdentity {
-                                base: form.clone(),
-                                gender: None,
-                                obtained: Some(NotCaught),
-                                box_num: 0,
-                                row: 0,
-                                col: 0,
+                            .filter(|form| !form.is_battle_only)
+                            .enumerate()
+                            .map(|(i, form)| {
+                                let mut f = form.clone();
+                                f.order = i as u32;
+                                DexIdentity::new(f, None)
                             })
                     })
-            })
-            .collect();
-
-        identities
-    }
-}
-
-impl DexType for LivingForm {
-    // Needs to populate using all forms
-    fn populate(&self, catalogue: &mut Vec<PokemonSpecies>) -> Vec<DexIdentity> {
-        let identities: Vec<DexIdentity> = catalogue
-            .iter()
-            .flat_map(|species| {
-                species.varieties.iter().flat_map(|variety| {
-                    variety
-                        .forms
-                        .iter()
-                        .filter(|form| !form.is_battle_only)
-                        .map(|form| DexIdentity {
-                            base: form.clone(),
-                            gender: None,
-                            obtained: Some(NotCaught),
-                            box_num: 0,
-                            row: 0,
-                            col: 0,
-                        })
                 })
-            })
-            .collect();
+                .collect(),
 
-        identities
+            DexKind::Living => source
+                .iter()
+                .flat_map(|species| {
+                    species.varieties.iter().take(1).flat_map(|variety| {
+                        variety
+                            .forms
+                            .iter()
+                            .take(1)
+                            .filter(|form| !form.is_battle_only)
+                    })
+                })
+                .enumerate()
+                .map(|(i, form)| {
+                    let mut f = form.clone();
+                    f.order = i as u32;
+                    DexIdentity::new(f, None)
+                })
+                .collect(),
+
+            DexKind::LivingForm => source
+                .iter()
+                .flat_map(|species| {
+                    species.varieties.iter().flat_map(|variety| {
+                        variety.forms.iter().filter(|form| !form.is_battle_only)
+                    })
+                })
+                .enumerate()
+                .map(|(i, form)| {
+                    let mut f = form.clone();
+                    f.order = i as u32;
+                    DexIdentity::new(f, None)
+                })
+                .collect(),
+
+            DexKind::LivingFormGender => source
+                .iter()
+                .flat_map(|species| {
+                    species.varieties.iter().flat_map(|variety| {
+                        variety
+                            .forms
+                            .iter()
+                            .filter(|form| !form.is_battle_only)
+                            .map(|form| (species.has_gender_differences, form))
+                    })
+                })
+                .enumerate()
+                .flat_map(|(mut i, (has_gender_differences, form))| {
+                    if has_gender_differences {
+                        let mut f1 = form.clone();
+                        let mut f2 = form.clone();
+
+                        f1.order = i as u32;
+                        i = i + 1;
+                        f2.order = i as u32;
+                        vec![
+                            DexIdentity::new(f1, Some(Gender::Male)),
+                            DexIdentity::new(f2, Some(Gender::Female)),
+                        ]
+                    } else {
+                        let mut f = form.clone();
+
+                        f.order = i as u32;
+                        vec![DexIdentity::new(f, None)]
+                    }
+                })
+                .collect(),
+        };
+
+        Catalogue { pokemon_array }
     }
 }
-
-// impl DexType for LivingFormGender {
-//     // Needs to populate using all forms and have duplicate entries for when has_gender_differences is true
-//     fn populate(&self) -> Vec<DexIdentity> {
-//         return Vec::with_capacity(0)
-//     }
-// }
