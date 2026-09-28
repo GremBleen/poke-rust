@@ -3,6 +3,7 @@ pub struct PokemonSpecies {
     pub species_id: u32,
     pub name: String,
     pub order: u32,
+    pub has_gender_differences: bool,
     pub varieties: Vec<PokemonVariety>,
 }
 

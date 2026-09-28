@@ -35,6 +35,7 @@ pub async fn fetch_species(id: u32, client: &RustemonClient) -> Result<PokemonSp
         species_id: raw.id as u32,
         name: raw.name,
         order: raw.order as u32,
+        has_gender_differences: raw.has_gender_differences,
         varieties: varieties,
     })
 }
@@ -94,6 +95,7 @@ pub async fn fetch_catalogue(client: &RustemonClient) -> Result<Vec<PokemonSpeci
             species_id: spec.id as u32,
             name: spec.name,
             order: spec.order as u32,
+            has_gender_differences: spec.has_gender_differences,
             varieties: varieties
         })
     }

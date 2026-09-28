@@ -1,4 +1,4 @@
-use poke_core::pokedex::{fetch_catalogue};
+use poke_core::pokedex::{Catalogue, fetch_catalogue, Living, LivingForm};
 use rustemon::client::{CACacheManager, CacheMode, RustemonClientBuilder};
 use poke_core::storage::repo::{save_json};
 use std::{path::Path};
@@ -40,10 +40,27 @@ async fn main() -> anyhow::Result<()> {
     // };
 
     let catalogue = fetch_catalogue(&client).await?;
-    let path_string = format!("./species/catalogue.jsonl");
+
+    // Construct Catalogues:
+    let mut living_dex: Catalogue = Catalogue { pokemon_array: Vec::new() };
+    living_dex.populate_as(&Living, &mut catalogue.clone());
+
+    let path_string = format!("./species/living_dex.jsonl");
     let path: &Path = Path::new(&path_string);
 
-    match save_json(path, &catalogue) {
+    match save_json(path, &living_dex) {
+        Ok(_) => {},
+        Err(_) => {},
+    };
+
+    // Construct Catalogues:
+    let mut living_form_dex: Catalogue = Catalogue { pokemon_array: Vec::new() };
+    living_form_dex.populate_as(&LivingForm, &mut catalogue.clone());
+
+    let path_string = format!("./species/living_form_dex.jsonl");
+    let path: &Path = Path::new(&path_string);
+
+    match save_json(path, &living_form_dex) {
         Ok(_) => {},
         Err(_) => {},
     };
