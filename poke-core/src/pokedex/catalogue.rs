@@ -29,7 +29,7 @@ impl Catalogue {
                             .map(|(i, form)| {
                                 let mut f = form.clone();
                                 f.order = i as u32;
-                                DexIdentity::new(f, None)
+                                DexIdentity::new(f, None, 0, 0)
                             })
                     })
                 })
@@ -50,7 +50,7 @@ impl Catalogue {
                 .map(|(i, form)| {
                     let mut f = form.clone();
                     f.order = i as u32;
-                    DexIdentity::new(f, None)
+                    DexIdentity::new(f, None, 0, 0)
                 })
                 .collect(),
 
@@ -65,7 +65,7 @@ impl Catalogue {
                 .map(|(i, form)| {
                     let mut f = form.clone();
                     f.order = i as u32;
-                    DexIdentity::new(f, None)
+                    DexIdentity::new(f, None, 0, 0)
                 })
                 .collect(),
 
@@ -89,15 +89,16 @@ impl Catalogue {
                         f1.order = i as u32;
                         i = i + 1;
                         f2.order = i as u32;
+
                         vec![
-                            DexIdentity::new(f1, Some(Gender::Male)),
-                            DexIdentity::new(f2, Some(Gender::Female)),
+                            DexIdentity::new(f1, Some(Gender::Male), 0, 0),
+                            DexIdentity::new(f2, Some(Gender::Female), 0, 0),
                         ]
                     } else {
                         let mut f = form.clone();
 
                         f.order = i as u32;
-                        vec![DexIdentity::new(f, None)]
+                        vec![DexIdentity::new(f, None, 0, 0)]
                     }
                 })
                 .collect(),

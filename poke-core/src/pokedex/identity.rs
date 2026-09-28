@@ -24,15 +24,15 @@ pub struct DexIdentity {
 }
 
 impl DexIdentity {
-    pub fn new(form: PokemonForm, gender: Option<Gender>) -> Self {
+    pub fn new(form: PokemonForm, gender: Option<Gender>, row: u32, col: u32) -> Self {
         let box_num = (form.order / 30) + 1;
         DexIdentity {
             base: form,
             gender,
             status: Some(NotCaught),
             box_num,
-            row: 0,
-            col: 0,
+            row,
+            col,
         }
     }
 }
