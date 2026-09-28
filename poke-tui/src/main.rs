@@ -46,7 +46,9 @@ async fn main() -> anyhow::Result<()> {
         Ok(source) => {
             println!("Waw");
             source},
-        Err(_) => {fetch_catalogue(&client).await?}
+        Err(_) => {
+            println!("aww");
+            fetch_catalogue(&client).await?}
     };
 
     match save_json(path, &catalogue) {
